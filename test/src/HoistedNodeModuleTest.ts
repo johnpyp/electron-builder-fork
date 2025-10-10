@@ -3,6 +3,18 @@ import { Platform, Arch, DIR_TARGET } from "electron-builder"
 import { outputFile, copySync, rmSync, readJsonSync, writeJsonSync, mkdirSync } from "fs-extra"
 import * as path from "path"
 import { spawn } from "builder-util/out/util"
+import { execSync } from "child_process"
+
+const hasBun = (() => {
+  try {
+    execSync("bun --version", { stdio: "ignore" })
+    return true
+  } catch {
+    return false
+  }
+})()
+
+const testIfBun = hasBun ? test : test.skip
 
 test("yarn workspace", ({ expect }) =>
   assertPack(
@@ -490,6 +502,39 @@ describe("isInstallDepsBefore=true", { sequential: true }, () => {
         packed: context => verifyAsarFileTree(expect, context.getResources(Platform.LINUX)),
       }
     ))
+
+  testIfBun("bun workspace isolated linker", ({ expect }) =>
+    assertPack(
+      expect,
+      "test-app-bun-isolated",
+      {
+        targets: linuxDirTarget,
+      },
+      {
+        isInstallDepsBefore: true,
+        projectDirCreated: projectDir =>
+          outputFile(
+            path.join(projectDir, "bunfig.toml"),
+            "[install]\nlinker = \"isolated\"\n"
+          ),
+        packed: context => verifyAsarFileTree(expect, context.getResources(Platform.LINUX)),
+      }
+    ))
+
+  // broken because of hoisting, should use isolated linker
+  testIfBun("bun workspace default linker", ({ expect }) =>
+    assertPack(
+      expect,
+      "test-app-bun-isolated",
+      {
+        targets: linuxDirTarget,
+      },
+      {
+        isInstallDepsBefore: true,
+        packed: context => verifyAsarFileTree(expect, context.getResources(Platform.LINUX)),
+      }
+    ))
+
   test("pnpm shamefully-hoist=true", ({ expect }) =>
     assertPack(
       expect,

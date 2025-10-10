@@ -25,6 +25,4320 @@ exports[`conflict versions 2`] = `
 }
 `;
 
+exports[`isInstallDepsBefore=true > bun workspace default linker 1`] = `
+{
+  "linux": [],
+}
+`;
+
+exports[`isInstallDepsBefore=true > bun workspace default linker 2`] = `
+{
+  "files": {
+    "index.js": {
+      "offset": "0",
+      "size": 32,
+    },
+    "package.json": {
+      "offset": "32",
+      "size": 298,
+    },
+  },
+}
+`;
+
+exports[`isInstallDepsBefore=true > bun workspace isolated linker 1`] = `
+{
+  "linux": [],
+}
+`;
+
+exports[`isInstallDepsBefore=true > bun workspace isolated linker 2`] = `
+{
+  "files": {
+    "index.js": {
+      "offset": "1419539",
+      "size": 32,
+    },
+    "node_modules": {
+      "files": {
+        "left-pad": {
+          "files": {
+            "COPYING": {
+              "offset": "0",
+              "size": 502,
+            },
+            "index.js": {
+              "offset": "502",
+              "size": 1469,
+            },
+            "package.json": {
+              "offset": "1971",
+              "size": 466,
+            },
+            "perf": {
+              "files": {
+                "O(n).js": {
+                  "offset": "2437",
+                  "size": 241,
+                },
+                "es6Repeat.js": {
+                  "offset": "2678",
+                  "size": 216,
+                },
+                "perf.js": {
+                  "offset": "2894",
+                  "size": 1442,
+                },
+              },
+            },
+            "test.js": {
+              "offset": "4336",
+              "size": 4005,
+            },
+          },
+        },
+        "lib": {
+          "files": {
+            "index.js": {
+              "offset": "8341",
+              "size": 46,
+            },
+            "package.json": {
+              "offset": "8387",
+              "size": 113,
+            },
+          },
+        },
+        "lodash": {
+          "files": {
+            "LICENSE": {
+              "offset": "8500",
+              "size": 1952,
+            },
+            "_DataView.js": {
+              "offset": "10452",
+              "size": 210,
+            },
+            "_Hash.js": {
+              "offset": "10662",
+              "size": 747,
+            },
+            "_LazyWrapper.js": {
+              "offset": "11409",
+              "size": 773,
+            },
+            "_ListCache.js": {
+              "offset": "12182",
+              "size": 869,
+            },
+            "_LodashWrapper.js": {
+              "offset": "13051",
+              "size": 611,
+            },
+            "_Map.js": {
+              "offset": "13662",
+              "size": 195,
+            },
+            "_MapCache.js": {
+              "offset": "13857",
+              "size": 869,
+            },
+            "_Promise.js": {
+              "offset": "14726",
+              "size": 207,
+            },
+            "_Set.js": {
+              "offset": "14933",
+              "size": 195,
+            },
+            "_SetCache.js": {
+              "offset": "15128",
+              "size": 632,
+            },
+            "_Stack.js": {
+              "offset": "15760",
+              "size": 734,
+            },
+            "_Symbol.js": {
+              "offset": "16494",
+              "size": 118,
+            },
+            "_Uint8Array.js": {
+              "offset": "16612",
+              "size": 130,
+            },
+            "_WeakMap.js": {
+              "offset": "16742",
+              "size": 207,
+            },
+            "_apply.js": {
+              "offset": "16949",
+              "size": 714,
+            },
+            "_arrayAggregator.js": {
+              "offset": "17663",
+              "size": 684,
+            },
+            "_arrayEach.js": {
+              "offset": "18347",
+              "size": 537,
+            },
+            "_arrayEachRight.js": {
+              "offset": "18884",
+              "size": 528,
+            },
+            "_arrayEvery.js": {
+              "offset": "19412",
+              "size": 597,
+            },
+            "_arrayFilter.js": {
+              "offset": "20009",
+              "size": 632,
+            },
+            "_arrayIncludes.js": {
+              "offset": "20641",
+              "size": 526,
+            },
+            "_arrayIncludesWith.js": {
+              "offset": "21167",
+              "size": 615,
+            },
+            "_arrayLikeKeys.js": {
+              "offset": "21782",
+              "size": 1778,
+            },
+            "_arrayMap.js": {
+              "offset": "23560",
+              "size": 556,
+            },
+            "_arrayPush.js": {
+              "offset": "24116",
+              "size": 437,
+            },
+            "_arrayReduce.js": {
+              "offset": "24553",
+              "size": 787,
+            },
+            "_arrayReduceRight.js": {
+              "offset": "25340",
+              "size": 777,
+            },
+            "_arraySample.js": {
+              "offset": "26117",
+              "size": 363,
+            },
+            "_arraySampleSize.js": {
+              "offset": "26480",
+              "size": 500,
+            },
+            "_arrayShuffle.js": {
+              "offset": "26980",
+              "size": 365,
+            },
+            "_arraySome.js": {
+              "offset": "27345",
+              "size": 594,
+            },
+            "_asciiSize.js": {
+              "offset": "27939",
+              "size": 271,
+            },
+            "_asciiToArray.js": {
+              "offset": "28210",
+              "size": 257,
+            },
+            "_asciiWords.js": {
+              "offset": "28467",
+              "size": 404,
+            },
+            "_assignMergeValue.js": {
+              "offset": "28871",
+              "size": 582,
+            },
+            "_assignValue.js": {
+              "offset": "29453",
+              "size": 899,
+            },
+            "_assocIndexOf.js": {
+              "offset": "30352",
+              "size": 487,
+            },
+            "_baseAggregator.js": {
+              "offset": "30839",
+              "size": 746,
+            },
+            "_baseAssign.js": {
+              "offset": "31585",
+              "size": 470,
+            },
+            "_baseAssignIn.js": {
+              "offset": "32055",
+              "size": 482,
+            },
+            "_baseAssignValue.js": {
+              "offset": "32537",
+              "size": 625,
+            },
+            "_baseAt.js": {
+              "offset": "33162",
+              "size": 569,
+            },
+            "_baseClamp.js": {
+              "offset": "33731",
+              "size": 571,
+            },
+            "_baseClone.js": {
+              "offset": "34302",
+              "size": 5609,
+            },
+            "_baseConforms.js": {
+              "offset": "39911",
+              "size": 484,
+            },
+            "_baseConformsTo.js": {
+              "offset": "40395",
+              "size": 718,
+            },
+            "_baseCreate.js": {
+              "offset": "41113",
+              "size": 686,
+            },
+            "_baseDelay.js": {
+              "offset": "41799",
+              "size": 672,
+            },
+            "_baseDifference.js": {
+              "offset": "42471",
+              "size": 1917,
+            },
+            "_baseEach.js": {
+              "offset": "44388",
+              "size": 455,
+            },
+            "_baseEachRight.js": {
+              "offset": "44843",
+              "size": 491,
+            },
+            "_baseEvery.js": {
+              "offset": "45334",
+              "size": 625,
+            },
+            "_baseExtremum.js": {
+              "offset": "45959",
+              "size": 897,
+            },
+            "_baseFill.js": {
+              "offset": "46856",
+              "size": 843,
+            },
+            "_baseFilter.js": {
+              "offset": "47699",
+              "size": 590,
+            },
+            "_baseFindIndex.js": {
+              "offset": "48289",
+              "size": 766,
+            },
+            "_baseFindKey.js": {
+              "offset": "49055",
+              "size": 747,
+            },
+            "_baseFlatten.js": {
+              "offset": "49802",
+              "size": 1201,
+            },
+            "_baseFor.js": {
+              "offset": "51003",
+              "size": 593,
+            },
+            "_baseForOwn.js": {
+              "offset": "51596",
+              "size": 456,
+            },
+            "_baseForOwnRight.js": {
+              "offset": "52052",
+              "size": 486,
+            },
+            "_baseForRight.js": {
+              "offset": "52538",
+              "size": 477,
+            },
+            "_baseFunctions.js": {
+              "offset": "53015",
+              "size": 552,
+            },
+            "_baseGet.js": {
+              "offset": "53567",
+              "size": 616,
+            },
+            "_baseGetAllKeys.js": {
+              "offset": "54183",
+              "size": 739,
+            },
+            "_baseGetTag.js": {
+              "offset": "54922",
+              "size": 792,
+            },
+            "_baseGt.js": {
+              "offset": "55714",
+              "size": 357,
+            },
+            "_baseHas.js": {
+              "offset": "56071",
+              "size": 559,
+            },
+            "_baseHasIn.js": {
+              "offset": "56630",
+              "size": 374,
+            },
+            "_baseInRange.js": {
+              "offset": "57004",
+              "size": 612,
+            },
+            "_baseIndexOf.js": {
+              "offset": "57616",
+              "size": 659,
+            },
+            "_baseIndexOfWith.js": {
+              "offset": "58275",
+              "size": 660,
+            },
+            "_baseIntersection.js": {
+              "offset": "58935",
+              "size": 2262,
+            },
+            "_baseInverter.js": {
+              "offset": "61197",
+              "size": 736,
+            },
+            "_baseInvoke.js": {
+              "offset": "61933",
+              "size": 789,
+            },
+            "_baseIsArguments.js": {
+              "offset": "62722",
+              "size": 488,
+            },
+            "_baseIsArrayBuffer.js": {
+              "offset": "63210",
+              "size": 504,
+            },
+            "_baseIsDate.js": {
+              "offset": "63714",
+              "size": 504,
+            },
+            "_baseIsEqual.js": {
+              "offset": "64218",
+              "size": 1019,
+            },
+            "_baseIsEqualDeep.js": {
+              "offset": "65237",
+              "size": 3010,
+            },
+            "_baseIsMap.js": {
+              "offset": "68247",
+              "size": 478,
+            },
+            "_baseIsMatch.js": {
+              "offset": "68725",
+              "size": 1765,
+            },
+            "_baseIsNaN.js": {
+              "offset": "70490",
+              "size": 296,
+            },
+            "_baseIsNative.js": {
+              "offset": "70786",
+              "size": 1417,
+            },
+            "_baseIsRegExp.js": {
+              "offset": "72203",
+              "size": 511,
+            },
+            "_baseIsSet.js": {
+              "offset": "72714",
+              "size": 478,
+            },
+            "_baseIsTypedArray.js": {
+              "offset": "73192",
+              "size": 2222,
+            },
+            "_baseIteratee.js": {
+              "offset": "75414",
+              "size": 895,
+            },
+            "_baseKeys.js": {
+              "offset": "76309",
+              "size": 776,
+            },
+            "_baseKeysIn.js": {
+              "offset": "77085",
+              "size": 870,
+            },
+            "_baseLodash.js": {
+              "offset": "77955",
+              "size": 178,
+            },
+            "_baseLt.js": {
+              "offset": "78133",
+              "size": 354,
+            },
+            "_baseMap.js": {
+              "offset": "78487",
+              "size": 668,
+            },
+            "_baseMatches.js": {
+              "offset": "79155",
+              "size": 710,
+            },
+            "_baseMatchesProperty.js": {
+              "offset": "79865",
+              "size": 1129,
+            },
+            "_baseMean.js": {
+              "offset": "80994",
+              "size": 568,
+            },
+            "_baseMerge.js": {
+              "offset": "81562",
+              "size": 1328,
+            },
+            "_baseMergeDeep.js": {
+              "offset": "82890",
+              "size": 3069,
+            },
+            "_baseNth.js": {
+              "offset": "85959",
+              "size": 483,
+            },
+            "_baseOrderBy.js": {
+              "offset": "86442",
+              "size": 1558,
+            },
+            "_basePick.js": {
+              "offset": "88000",
+              "size": 501,
+            },
+            "_basePickBy.js": {
+              "offset": "88501",
+              "size": 791,
+            },
+            "_baseProperty.js": {
+              "offset": "89292",
+              "size": 360,
+            },
+            "_basePropertyDeep.js": {
+              "offset": "89652",
+              "size": 391,
+            },
+            "_basePropertyOf.js": {
+              "offset": "90043",
+              "size": 358,
+            },
+            "_basePullAll.js": {
+              "offset": "90401",
+              "size": 1459,
+            },
+            "_basePullAt.js": {
+              "offset": "91860",
+              "size": 939,
+            },
+            "_baseRandom.js": {
+              "offset": "92799",
+              "size": 541,
+            },
+            "_baseRange.js": {
+              "offset": "93340",
+              "size": 850,
+            },
+            "_baseReduce.js": {
+              "offset": "94190",
+              "size": 909,
+            },
+            "_baseRepeat.js": {
+              "offset": "95099",
+              "size": 952,
+            },
+            "_baseRest.js": {
+              "offset": "96051",
+              "size": 559,
+            },
+            "_baseSample.js": {
+              "offset": "96610",
+              "size": 359,
+            },
+            "_baseSampleSize.js": {
+              "offset": "96969",
+              "size": 548,
+            },
+            "_baseSet.js": {
+              "offset": "97517",
+              "size": 1385,
+            },
+            "_baseSetData.js": {
+              "offset": "98902",
+              "size": 456,
+            },
+            "_baseSetToString.js": {
+              "offset": "99358",
+              "size": 641,
+            },
+            "_baseShuffle.js": {
+              "offset": "99999",
+              "size": 371,
+            },
+            "_baseSlice.js": {
+              "offset": "100370",
+              "size": 756,
+            },
+            "_baseSome.js": {
+              "offset": "101126",
+              "size": 619,
+            },
+            "_baseSortBy.js": {
+              "offset": "101745",
+              "size": 543,
+            },
+            "_baseSortedIndex.js": {
+              "offset": "102288",
+              "size": 1429,
+            },
+            "_baseSortedIndexBy.js": {
+              "offset": "103717",
+              "size": 2259,
+            },
+            "_baseSortedUniq.js": {
+              "offset": "105976",
+              "size": 758,
+            },
+            "_baseSum.js": {
+              "offset": "106734",
+              "size": 600,
+            },
+            "_baseTimes.js": {
+              "offset": "107334",
+              "size": 504,
+            },
+            "_baseToNumber.js": {
+              "offset": "107838",
+              "size": 539,
+            },
+            "_baseToPairs.js": {
+              "offset": "108377",
+              "size": 537,
+            },
+            "_baseToString.js": {
+              "offset": "108914",
+              "size": 1154,
+            },
+            "_baseTrim.js": {
+              "offset": "110068",
+              "size": 444,
+            },
+            "_baseUnary.js": {
+              "offset": "110512",
+              "size": 332,
+            },
+            "_baseUniq.js": {
+              "offset": "110844",
+              "size": 1909,
+            },
+            "_baseUnset.js": {
+              "offset": "112753",
+              "size": 580,
+            },
+            "_baseUpdate.js": {
+              "offset": "113333",
+              "size": 605,
+            },
+            "_baseValues.js": {
+              "offset": "113938",
+              "size": 534,
+            },
+            "_baseWhile.js": {
+              "offset": "114472",
+              "size": 933,
+            },
+            "_baseWrapperValue.js": {
+              "offset": "115405",
+              "size": 857,
+            },
+            "_baseXor.js": {
+              "offset": "116262",
+              "size": 1099,
+            },
+            "_baseZipObject.js": {
+              "offset": "117361",
+              "size": 660,
+            },
+            "_cacheHas.js": {
+              "offset": "118021",
+              "size": 337,
+            },
+            "_castArrayLikeObject.js": {
+              "offset": "118358",
+              "size": 381,
+            },
+            "_castFunction.js": {
+              "offset": "118739",
+              "size": 326,
+            },
+            "_castPath.js": {
+              "offset": "119065",
+              "size": 569,
+            },
+            "_castRest.js": {
+              "offset": "119634",
+              "size": 348,
+            },
+            "_castSlice.js": {
+              "offset": "119982",
+              "size": 517,
+            },
+            "_charsEndIndex.js": {
+              "offset": "120499",
+              "size": 600,
+            },
+            "_charsStartIndex.js": {
+              "offset": "121099",
+              "size": 636,
+            },
+            "_cloneArrayBuffer.js": {
+              "offset": "121735",
+              "size": 449,
+            },
+            "_cloneBuffer.js": {
+              "offset": "122184",
+              "size": 1056,
+            },
+            "_cloneDataView.js": {
+              "offset": "123240",
+              "size": 507,
+            },
+            "_cloneRegExp.js": {
+              "offset": "123747",
+              "size": 439,
+            },
+            "_cloneSymbol.js": {
+              "offset": "124186",
+              "size": 524,
+            },
+            "_cloneTypedArray.js": {
+              "offset": "124710",
+              "size": 527,
+            },
+            "_compareAscending.js": {
+              "offset": "125237",
+              "size": 1343,
+            },
+            "_compareMultiple.js": {
+              "offset": "126580",
+              "size": 1599,
+            },
+            "_composeArgs.js": {
+              "offset": "128179",
+              "size": 1323,
+            },
+            "_composeArgsRight.js": {
+              "offset": "129502",
+              "size": 1388,
+            },
+            "_copyArray.js": {
+              "offset": "130890",
+              "size": 454,
+            },
+            "_copyObject.js": {
+              "offset": "131344",
+              "size": 1044,
+            },
+            "_copySymbols.js": {
+              "offset": "132388",
+              "size": 446,
+            },
+            "_copySymbolsIn.js": {
+              "offset": "132834",
+              "size": 470,
+            },
+            "_coreJsData.js": {
+              "offset": "133304",
+              "size": 157,
+            },
+            "_countHolders.js": {
+              "offset": "133461",
+              "size": 469,
+            },
+            "_createAggregator.js": {
+              "offset": "133930",
+              "size": 789,
+            },
+            "_createAssigner.js": {
+              "offset": "134719",
+              "size": 1042,
+            },
+            "_createBaseEach.js": {
+              "offset": "135761",
+              "size": 886,
+            },
+            "_createBaseFor.js": {
+              "offset": "136647",
+              "size": 648,
+            },
+            "_createBind.js": {
+              "offset": "137295",
+              "size": 853,
+            },
+            "_createCaseFirst.js": {
+              "offset": "138148",
+              "size": 811,
+            },
+            "_createCompounder.js": {
+              "offset": "138959",
+              "size": 635,
+            },
+            "_createCtor.js": {
+              "offset": "139594",
+              "size": 1482,
+            },
+            "_createCurry.js": {
+              "offset": "141076",
+              "size": 1447,
+            },
+            "_createFind.js": {
+              "offset": "142523",
+              "size": 853,
+            },
+            "_createFlow.js": {
+              "offset": "143376",
+              "size": 2249,
+            },
+            "_createHybrid.js": {
+              "offset": "145625",
+              "size": 3252,
+            },
+            "_createInverter.js": {
+              "offset": "148877",
+              "size": 497,
+            },
+            "_createMathOperation.js": {
+              "offset": "149374",
+              "size": 1104,
+            },
+            "_createOver.js": {
+              "offset": "150478",
+              "size": 780,
+            },
+            "_createPadding.js": {
+              "offset": "151258",
+              "size": 1153,
+            },
+            "_createPartial.js": {
+              "offset": "152411",
+              "size": 1382,
+            },
+            "_createRange.js": {
+              "offset": "153793",
+              "size": 864,
+            },
+            "_createRecurry.js": {
+              "offset": "154657",
+              "size": 2117,
+            },
+            "_createRelationalOperation.js": {
+              "offset": "156774",
+              "size": 578,
+            },
+            "_createRound.js": {
+              "offset": "157352",
+              "size": 1193,
+            },
+            "_createSet.js": {
+              "offset": "158545",
+              "size": 501,
+            },
+            "_createToPairs.js": {
+              "offset": "159046",
+              "size": 789,
+            },
+            "_createWrap.js": {
+              "offset": "159835",
+              "size": 3714,
+            },
+            "_customDefaultsAssignIn.js": {
+              "offset": "163549",
+              "size": 934,
+            },
+            "_customDefaultsMerge.js": {
+              "offset": "164483",
+              "size": 1049,
+            },
+            "_customOmitClone.js": {
+              "offset": "165532",
+              "size": 475,
+            },
+            "_deburrLetter.js": {
+              "offset": "166007",
+              "size": 3411,
+            },
+            "_defineProperty.js": {
+              "offset": "169418",
+              "size": 233,
+            },
+            "_equalArrays.js": {
+              "offset": "169651",
+              "size": 2662,
+            },
+            "_equalByTag.js": {
+              "offset": "172313",
+              "size": 3746,
+            },
+            "_equalObjects.js": {
+              "offset": "176059",
+              "size": 2971,
+            },
+            "_escapeHtmlChar.js": {
+              "offset": "179030",
+              "size": 479,
+            },
+            "_escapeStringChar.js": {
+              "offset": "179509",
+              "size": 521,
+            },
+            "_flatRest.js": {
+              "offset": "180030",
+              "size": 457,
+            },
+            "_freeGlobal.js": {
+              "offset": "180487",
+              "size": 173,
+            },
+            "_getAllKeys.js": {
+              "offset": "180660",
+              "size": 455,
+            },
+            "_getAllKeysIn.js": {
+              "offset": "181115",
+              "size": 488,
+            },
+            "_getData.js": {
+              "offset": "181603",
+              "size": 325,
+            },
+            "_getFuncName.js": {
+              "offset": "181928",
+              "size": 756,
+            },
+            "_getHolder.js": {
+              "offset": "182684",
+              "size": 280,
+            },
+            "_getMapData.js": {
+              "offset": "182964",
+              "size": 400,
+            },
+            "_getMatchData.js": {
+              "offset": "183364",
+              "size": 573,
+            },
+            "_getNative.js": {
+              "offset": "183937",
+              "size": 483,
+            },
+            "_getPrototype.js": {
+              "offset": "184420",
+              "size": 163,
+            },
+            "_getRawTag.js": {
+              "offset": "184583",
+              "size": 1139,
+            },
+            "_getSymbols.js": {
+              "offset": "185722",
+              "size": 886,
+            },
+            "_getSymbolsIn.js": {
+              "offset": "186608",
+              "size": 754,
+            },
+            "_getTag.js": {
+              "offset": "187362",
+              "size": 1838,
+            },
+            "_getValue.js": {
+              "offset": "189200",
+              "size": 325,
+            },
+            "_getView.js": {
+              "offset": "189525",
+              "size": 1024,
+            },
+            "_getWrapDetails.js": {
+              "offset": "190549",
+              "size": 479,
+            },
+            "_hasPath.js": {
+              "offset": "191028",
+              "size": 1085,
+            },
+            "_hasUnicode.js": {
+              "offset": "192113",
+              "size": 949,
+            },
+            "_hasUnicodeWord.js": {
+              "offset": "193062",
+              "size": 491,
+            },
+            "_hashClear.js": {
+              "offset": "193553",
+              "size": 281,
+            },
+            "_hashDelete.js": {
+              "offset": "193834",
+              "size": 445,
+            },
+            "_hashGet.js": {
+              "offset": "194279",
+              "size": 772,
+            },
+            "_hashHas.js": {
+              "offset": "195051",
+              "size": 626,
+            },
+            "_hashSet.js": {
+              "offset": "195677",
+              "size": 598,
+            },
+            "_initCloneArray.js": {
+              "offset": "196275",
+              "size": 692,
+            },
+            "_initCloneByTag.js": {
+              "offset": "196967",
+              "size": 2261,
+            },
+            "_initCloneObject.js": {
+              "offset": "199228",
+              "size": 486,
+            },
+            "_insertWrapDetails.js": {
+              "offset": "199714",
+              "size": 748,
+            },
+            "_isFlattenable.js": {
+              "offset": "200462",
+              "size": 608,
+            },
+            "_isIndex.js": {
+              "offset": "201070",
+              "size": 759,
+            },
+            "_isIterateeCall.js": {
+              "offset": "201829",
+              "size": 877,
+            },
+            "_isKey.js": {
+              "offset": "202706",
+              "size": 880,
+            },
+            "_isKeyable.js": {
+              "offset": "203586",
+              "size": 430,
+            },
+            "_isLaziable.js": {
+              "offset": "204016",
+              "size": 712,
+            },
+            "_isMaskable.js": {
+              "offset": "204728",
+              "size": 395,
+            },
+            "_isMasked.js": {
+              "offset": "205123",
+              "size": 564,
+            },
+            "_isPrototype.js": {
+              "offset": "205687",
+              "size": 480,
+            },
+            "_isStrictComparable.js": {
+              "offset": "206167",
+              "size": 414,
+            },
+            "_iteratorToArray.js": {
+              "offset": "206581",
+              "size": 360,
+            },
+            "_lazyClone.js": {
+              "offset": "206941",
+              "size": 657,
+            },
+            "_lazyReverse.js": {
+              "offset": "207598",
+              "size": 491,
+            },
+            "_lazyValue.js": {
+              "offset": "208089",
+              "size": 1790,
+            },
+            "_listCacheClear.js": {
+              "offset": "209879",
+              "size": 218,
+            },
+            "_listCacheDelete.js": {
+              "offset": "210097",
+              "size": 775,
+            },
+            "_listCacheGet.js": {
+              "offset": "210872",
+              "size": 420,
+            },
+            "_listCacheHas.js": {
+              "offset": "211292",
+              "size": 403,
+            },
+            "_listCacheSet.js": {
+              "offset": "211695",
+              "size": 553,
+            },
+            "_mapCacheClear.js": {
+              "offset": "212248",
+              "size": 393,
+            },
+            "_mapCacheDelete.js": {
+              "offset": "212641",
+              "size": 450,
+            },
+            "_mapCacheGet.js": {
+              "offset": "213091",
+              "size": 330,
+            },
+            "_mapCacheHas.js": {
+              "offset": "213421",
+              "size": 382,
+            },
+            "_mapCacheSet.js": {
+              "offset": "213803",
+              "size": 489,
+            },
+            "_mapToArray.js": {
+              "offset": "214292",
+              "size": 363,
+            },
+            "_matchesStrictComparable.js": {
+              "offset": "214655",
+              "size": 574,
+            },
+            "_memoizeCapped.js": {
+              "offset": "215229",
+              "size": 633,
+            },
+            "_mergeData.js": {
+              "offset": "215862",
+              "size": 3135,
+            },
+            "_metaMap.js": {
+              "offset": "218997",
+              "size": 143,
+            },
+            "_nativeCreate.js": {
+              "offset": "219140",
+              "size": 187,
+            },
+            "_nativeKeys.js": {
+              "offset": "219327",
+              "size": 204,
+            },
+            "_nativeKeysIn.js": {
+              "offset": "219531",
+              "size": 490,
+            },
+            "_nodeUtil.js": {
+              "offset": "220021",
+              "size": 995,
+            },
+            "_objectToString.js": {
+              "offset": "221016",
+              "size": 565,
+            },
+            "_overArg.js": {
+              "offset": "221581",
+              "size": 382,
+            },
+            "_overRest.js": {
+              "offset": "221963",
+              "size": 1096,
+            },
+            "_parent.js": {
+              "offset": "223059",
+              "size": 436,
+            },
+            "_reEscape.js": {
+              "offset": "223495",
+              "size": 105,
+            },
+            "_reEvaluate.js": {
+              "offset": "223600",
+              "size": 108,
+            },
+            "_reInterpolate.js": {
+              "offset": "223708",
+              "size": 115,
+            },
+            "_realNames.js": {
+              "offset": "223823",
+              "size": 98,
+            },
+            "_reorder.js": {
+              "offset": "223921",
+              "size": 900,
+            },
+            "_replaceHolders.js": {
+              "offset": "224821",
+              "size": 785,
+            },
+            "_root.js": {
+              "offset": "225606",
+              "size": 300,
+            },
+            "_safeGet.js": {
+              "offset": "225906",
+              "size": 456,
+            },
+            "_setCacheAdd.js": {
+              "offset": "226362",
+              "size": 424,
+            },
+            "_setCacheHas.js": {
+              "offset": "226786",
+              "size": 316,
+            },
+            "_setData.js": {
+              "offset": "227102",
+              "size": 645,
+            },
+            "_setToArray.js": {
+              "offset": "227747",
+              "size": 345,
+            },
+            "_setToPairs.js": {
+              "offset": "228092",
+              "size": 364,
+            },
+            "_setToString.js": {
+              "offset": "228456",
+              "size": 392,
+            },
+            "_setWrapToString.js": {
+              "offset": "228848",
+              "size": 847,
+            },
+            "_shortOut.js": {
+              "offset": "229695",
+              "size": 941,
+            },
+            "_shuffleSelf.js": {
+              "offset": "230636",
+              "size": 689,
+            },
+            "_stackClear.js": {
+              "offset": "231325",
+              "size": 254,
+            },
+            "_stackDelete.js": {
+              "offset": "231579",
+              "size": 405,
+            },
+            "_stackGet.js": {
+              "offset": "231984",
+              "size": 271,
+            },
+            "_stackHas.js": {
+              "offset": "232255",
+              "size": 323,
+            },
+            "_stackSet.js": {
+              "offset": "232578",
+              "size": 853,
+            },
+            "_strictIndexOf.js": {
+              "offset": "233431",
+              "size": 600,
+            },
+            "_strictLastIndexOf.js": {
+              "offset": "234031",
+              "size": 576,
+            },
+            "_stringSize.js": {
+              "offset": "234607",
+              "size": 432,
+            },
+            "_stringToArray.js": {
+              "offset": "235039",
+              "size": 450,
+            },
+            "_stringToPath.js": {
+              "offset": "235489",
+              "size": 840,
+            },
+            "_toKey.js": {
+              "offset": "236329",
+              "size": 523,
+            },
+            "_toSource.js": {
+              "offset": "236852",
+              "size": 556,
+            },
+            "_trimmedEndIndex.js": {
+              "offset": "237408",
+              "size": 515,
+            },
+            "_unescapeHtmlChar.js": {
+              "offset": "237923",
+              "size": 493,
+            },
+            "_unicodeSize.js": {
+              "offset": "238416",
+              "size": 1642,
+            },
+            "_unicodeToArray.js": {
+              "offset": "240058",
+              "size": 1588,
+            },
+            "_unicodeWords.js": {
+              "offset": "241646",
+              "size": 3060,
+            },
+            "_updateWrapDetails.js": {
+              "offset": "244706",
+              "size": 1310,
+            },
+            "_wrapperClone.js": {
+              "offset": "246016",
+              "size": 658,
+            },
+            "add.js": {
+              "offset": "246674",
+              "size": 469,
+            },
+            "after.js": {
+              "offset": "247143",
+              "size": 1060,
+            },
+            "array.js": {
+              "offset": "248203",
+              "size": 2490,
+            },
+            "ary.js": {
+              "offset": "250693",
+              "size": 857,
+            },
+            "assign.js": {
+              "offset": "251550",
+              "size": 1566,
+            },
+            "assignIn.js": {
+              "offset": "253116",
+              "size": 906,
+            },
+            "assignInWith.js": {
+              "offset": "254022",
+              "size": 1256,
+            },
+            "assignWith.js": {
+              "offset": "255278",
+              "size": 1223,
+            },
+            "at.js": {
+              "offset": "256501",
+              "size": 559,
+            },
+            "attempt.js": {
+              "offset": "257060",
+              "size": 931,
+            },
+            "before.js": {
+              "offset": "257991",
+              "size": 1090,
+            },
+            "bind.js": {
+              "offset": "259081",
+              "size": 1694,
+            },
+            "bindAll.js": {
+              "offset": "260775",
+              "size": 1125,
+            },
+            "bindKey.js": {
+              "offset": "261900",
+              "size": 2071,
+            },
+            "camelCase.js": {
+              "offset": "263971",
+              "size": 701,
+            },
+            "capitalize.js": {
+              "offset": "264672",
+              "size": 529,
+            },
+            "castArray.js": {
+              "offset": "265201",
+              "size": 768,
+            },
+            "ceil.js": {
+              "offset": "265969",
+              "size": 507,
+            },
+            "chain.js": {
+              "offset": "266476",
+              "size": 851,
+            },
+            "chunk.js": {
+              "offset": "267327",
+              "size": 1411,
+            },
+            "clamp.js": {
+              "offset": "268738",
+              "size": 890,
+            },
+            "clone.js": {
+              "offset": "269628",
+              "size": 1065,
+            },
+            "cloneDeep.js": {
+              "offset": "270693",
+              "size": 679,
+            },
+            "cloneDeepWith.js": {
+              "offset": "271372",
+              "size": 1046,
+            },
+            "cloneWith.js": {
+              "offset": "272418",
+              "size": 1194,
+            },
+            "collection.js": {
+              "offset": "273612",
+              "size": 1009,
+            },
+            "commit.js": {
+              "offset": "274621",
+              "size": 641,
+            },
+            "compact.js": {
+              "offset": "275262",
+              "size": 681,
+            },
+            "concat.js": {
+              "offset": "275943",
+              "size": 1007,
+            },
+            "cond.js": {
+              "offset": "276950",
+              "size": 1613,
+            },
+            "conforms.js": {
+              "offset": "278563",
+              "size": 978,
+            },
+            "conformsTo.js": {
+              "offset": "279541",
+              "size": 954,
+            },
+            "constant.js": {
+              "offset": "280495",
+              "size": 528,
+            },
+            "core.js": {
+              "offset": "281023",
+              "size": 115957,
+            },
+            "core.min.js": {
+              "offset": "396980",
+              "size": 12684,
+            },
+            "countBy.js": {
+              "offset": "409664",
+              "size": 1262,
+            },
+            "create.js": {
+              "offset": "410926",
+              "size": 1032,
+            },
+            "curry.js": {
+              "offset": "411958",
+              "size": 1644,
+            },
+            "curryRight.js": {
+              "offset": "413602",
+              "size": 1499,
+            },
+            "date.js": {
+              "offset": "415101",
+              "size": 48,
+            },
+            "debounce.js": {
+              "offset": "415149",
+              "size": 6100,
+            },
+            "deburr.js": {
+              "offset": "421249",
+              "size": 1617,
+            },
+            "defaultTo.js": {
+              "offset": "422866",
+              "size": 608,
+            },
+            "defaults.js": {
+              "offset": "423474",
+              "size": 1754,
+            },
+            "defaultsDeep.js": {
+              "offset": "425228",
+              "size": 839,
+            },
+            "defer.js": {
+              "offset": "426067",
+              "size": 693,
+            },
+            "delay.js": {
+              "offset": "426760",
+              "size": 795,
+            },
+            "difference.js": {
+              "offset": "427555",
+              "size": 1063,
+            },
+            "differenceBy.js": {
+              "offset": "428618",
+              "size": 1527,
+            },
+            "differenceWith.js": {
+              "offset": "430145",
+              "size": 1395,
+            },
+            "divide.js": {
+              "offset": "431540",
+              "size": 491,
+            },
+            "drop.js": {
+              "offset": "432031",
+              "size": 890,
+            },
+            "dropRight.js": {
+              "offset": "432921",
+              "size": 927,
+            },
+            "dropRightWhile.js": {
+              "offset": "433848",
+              "size": 1412,
+            },
+            "dropWhile.js": {
+              "offset": "435260",
+              "size": 1384,
+            },
+            "each.js": {
+              "offset": "436644",
+              "size": 39,
+            },
+            "eachRight.js": {
+              "offset": "436683",
+              "size": 44,
+            },
+            "endsWith.js": {
+              "offset": "436727",
+              "size": 1098,
+            },
+            "entries.js": {
+              "offset": "437825",
+              "size": 39,
+            },
+            "entriesIn.js": {
+              "offset": "437864",
+              "size": 41,
+            },
+            "eq.js": {
+              "offset": "437905",
+              "size": 799,
+            },
+            "escape.js": {
+              "offset": "438704",
+              "size": 1444,
+            },
+            "escapeRegExp.js": {
+              "offset": "440148",
+              "size": 871,
+            },
+            "every.js": {
+              "offset": "441019",
+              "size": 1869,
+            },
+            "extend.js": {
+              "offset": "442888",
+              "size": 40,
+            },
+            "extendWith.js": {
+              "offset": "442928",
+              "size": 44,
+            },
+            "fill.js": {
+              "offset": "442972",
+              "size": 1081,
+            },
+            "filter.js": {
+              "offset": "444053",
+              "size": 1683,
+            },
+            "find.js": {
+              "offset": "445736",
+              "size": 1304,
+            },
+            "findIndex.js": {
+              "offset": "447040",
+              "size": 1654,
+            },
+            "findKey.js": {
+              "offset": "448694",
+              "size": 1329,
+            },
+            "findLast.js": {
+              "offset": "450023",
+              "size": 730,
+            },
+            "findLastIndex.js": {
+              "offset": "450753",
+              "size": 1761,
+            },
+            "findLastKey.js": {
+              "offset": "452514",
+              "size": 1346,
+            },
+            "first.js": {
+              "offset": "453860",
+              "size": 36,
+            },
+            "flake.lock": {
+              "offset": "453896",
+              "size": 963,
+            },
+            "flake.nix": {
+              "offset": "454859",
+              "size": 459,
+            },
+            "flatMap.js": {
+              "offset": "455318",
+              "size": 812,
+            },
+            "flatMapDeep.js": {
+              "offset": "456130",
+              "size": 796,
+            },
+            "flatMapDepth.js": {
+              "offset": "456926",
+              "size": 901,
+            },
+            "flatten.js": {
+              "offset": "457827",
+              "size": 489,
+            },
+            "flattenDeep.js": {
+              "offset": "458316",
+              "size": 577,
+            },
+            "flattenDepth.js": {
+              "offset": "458893",
+              "size": 787,
+            },
+            "flip.js": {
+              "offset": "459680",
+              "size": 636,
+            },
+            "floor.js": {
+              "offset": "460316",
+              "size": 521,
+            },
+            "flow.js": {
+              "offset": "460837",
+              "size": 666,
+            },
+            "flowRight.js": {
+              "offset": "461503",
+              "size": 590,
+            },
+            "forEach.js": {
+              "offset": "462093",
+              "size": 1355,
+            },
+            "forEachRight.js": {
+              "offset": "463448",
+              "size": 924,
+            },
+            "forIn.js": {
+              "offset": "464372",
+              "size": 1065,
+            },
+            "forInRight.js": {
+              "offset": "465437",
+              "size": 929,
+            },
+            "forOwn.js": {
+              "offset": "466366",
+              "size": 992,
+            },
+            "forOwnRight.js": {
+              "offset": "467358",
+              "size": 866,
+            },
+            "fp": {
+              "files": {
+                "F.js": {
+                  "offset": "468325",
+                  "size": 41,
+                },
+                "T.js": {
+                  "offset": "468366",
+                  "size": 40,
+                },
+                "__.js": {
+                  "offset": "468406",
+                  "size": 43,
+                },
+                "_baseConvert.js": {
+                  "offset": "468449",
+                  "size": 16414,
+                },
+                "_convertBrowser.js": {
+                  "offset": "484863",
+                  "size": 615,
+                },
+                "_falseOptions.js": {
+                  "offset": "485478",
+                  "size": 113,
+                },
+                "_mapping.js": {
+                  "offset": "485591",
+                  "size": 9955,
+                },
+                "_util.js": {
+                  "offset": "495546",
+                  "size": 524,
+                },
+                "add.js": {
+                  "offset": "496070",
+                  "size": 151,
+                },
+                "after.js": {
+                  "offset": "496221",
+                  "size": 155,
+                },
+                "all.js": {
+                  "offset": "496376",
+                  "size": 37,
+                },
+                "allPass.js": {
+                  "offset": "496413",
+                  "size": 41,
+                },
+                "always.js": {
+                  "offset": "496454",
+                  "size": 40,
+                },
+                "any.js": {
+                  "offset": "496494",
+                  "size": 36,
+                },
+                "anyPass.js": {
+                  "offset": "496530",
+                  "size": 40,
+                },
+                "apply.js": {
+                  "offset": "496570",
+                  "size": 38,
+                },
+                "array.js": {
+                  "offset": "496608",
+                  "size": 83,
+                },
+                "ary.js": {
+                  "offset": "496691",
+                  "size": 151,
+                },
+                "assign.js": {
+                  "offset": "496842",
+                  "size": 157,
+                },
+                "assignAll.js": {
+                  "offset": "496999",
+                  "size": 160,
+                },
+                "assignAllWith.js": {
+                  "offset": "497159",
+                  "size": 168,
+                },
+                "assignIn.js": {
+                  "offset": "497327",
+                  "size": 161,
+                },
+                "assignInAll.js": {
+                  "offset": "497488",
+                  "size": 164,
+                },
+                "assignInAllWith.js": {
+                  "offset": "497652",
+                  "size": 172,
+                },
+                "assignInWith.js": {
+                  "offset": "497824",
+                  "size": 169,
+                },
+                "assignWith.js": {
+                  "offset": "497993",
+                  "size": 165,
+                },
+                "assoc.js": {
+                  "offset": "498158",
+                  "size": 35,
+                },
+                "assocPath.js": {
+                  "offset": "498193",
+                  "size": 35,
+                },
+                "at.js": {
+                  "offset": "498228",
+                  "size": 149,
+                },
+                "attempt.js": {
+                  "offset": "498377",
+                  "size": 159,
+                },
+                "before.js": {
+                  "offset": "498536",
+                  "size": 157,
+                },
+                "bind.js": {
+                  "offset": "498693",
+                  "size": 153,
+                },
+                "bindAll.js": {
+                  "offset": "498846",
+                  "size": 159,
+                },
+                "bindKey.js": {
+                  "offset": "499005",
+                  "size": 159,
+                },
+                "camelCase.js": {
+                  "offset": "499164",
+                  "size": 191,
+                },
+                "capitalize.js": {
+                  "offset": "499355",
+                  "size": 193,
+                },
+                "castArray.js": {
+                  "offset": "499548",
+                  "size": 163,
+                },
+                "ceil.js": {
+                  "offset": "499711",
+                  "size": 153,
+                },
+                "chain.js": {
+                  "offset": "499864",
+                  "size": 183,
+                },
+                "chunk.js": {
+                  "offset": "500047",
+                  "size": 155,
+                },
+                "clamp.js": {
+                  "offset": "500202",
+                  "size": 155,
+                },
+                "clone.js": {
+                  "offset": "500357",
+                  "size": 183,
+                },
+                "cloneDeep.js": {
+                  "offset": "500540",
+                  "size": 191,
+                },
+                "cloneDeepWith.js": {
+                  "offset": "500731",
+                  "size": 171,
+                },
+                "cloneWith.js": {
+                  "offset": "500902",
+                  "size": 163,
+                },
+                "collection.js": {
+                  "offset": "501065",
+                  "size": 88,
+                },
+                "commit.js": {
+                  "offset": "501153",
+                  "size": 185,
+                },
+                "compact.js": {
+                  "offset": "501338",
+                  "size": 187,
+                },
+                "complement.js": {
+                  "offset": "501525",
+                  "size": 38,
+                },
+                "compose.js": {
+                  "offset": "501563",
+                  "size": 41,
+                },
+                "concat.js": {
+                  "offset": "501604",
+                  "size": 157,
+                },
+                "cond.js": {
+                  "offset": "501761",
+                  "size": 181,
+                },
+                "conforms.js": {
+                  "offset": "501942",
+                  "size": 42,
+                },
+                "conformsTo.js": {
+                  "offset": "501984",
+                  "size": 165,
+                },
+                "constant.js": {
+                  "offset": "502149",
+                  "size": 189,
+                },
+                "contains.js": {
+                  "offset": "502338",
+                  "size": 40,
+                },
+                "convert.js": {
+                  "offset": "502378",
+                  "size": 657,
+                },
+                "countBy.js": {
+                  "offset": "503035",
+                  "size": 159,
+                },
+                "create.js": {
+                  "offset": "503194",
+                  "size": 157,
+                },
+                "curry.js": {
+                  "offset": "503351",
+                  "size": 155,
+                },
+                "curryN.js": {
+                  "offset": "503506",
+                  "size": 156,
+                },
+                "curryRight.js": {
+                  "offset": "503662",
+                  "size": 165,
+                },
+                "curryRightN.js": {
+                  "offset": "503827",
+                  "size": 166,
+                },
+                "date.js": {
+                  "offset": "503993",
+                  "size": 82,
+                },
+                "debounce.js": {
+                  "offset": "504075",
+                  "size": 161,
+                },
+                "deburr.js": {
+                  "offset": "504236",
+                  "size": 185,
+                },
+                "defaultTo.js": {
+                  "offset": "504421",
+                  "size": 163,
+                },
+                "defaults.js": {
+                  "offset": "504584",
+                  "size": 161,
+                },
+                "defaultsAll.js": {
+                  "offset": "504745",
+                  "size": 164,
+                },
+                "defaultsDeep.js": {
+                  "offset": "504909",
+                  "size": 169,
+                },
+                "defaultsDeepAll.js": {
+                  "offset": "505078",
+                  "size": 172,
+                },
+                "defer.js": {
+                  "offset": "505250",
+                  "size": 183,
+                },
+                "delay.js": {
+                  "offset": "505433",
+                  "size": 155,
+                },
+                "difference.js": {
+                  "offset": "505588",
+                  "size": 165,
+                },
+                "differenceBy.js": {
+                  "offset": "505753",
+                  "size": 169,
+                },
+                "differenceWith.js": {
+                  "offset": "505922",
+                  "size": 173,
+                },
+                "dissoc.js": {
+                  "offset": "506095",
+                  "size": 37,
+                },
+                "dissocPath.js": {
+                  "offset": "506132",
+                  "size": 37,
+                },
+                "divide.js": {
+                  "offset": "506169",
+                  "size": 157,
+                },
+                "drop.js": {
+                  "offset": "506326",
+                  "size": 153,
+                },
+                "dropLast.js": {
+                  "offset": "506479",
+                  "size": 41,
+                },
+                "dropLastWhile.js": {
+                  "offset": "506520",
+                  "size": 46,
+                },
+                "dropRight.js": {
+                  "offset": "506566",
+                  "size": 163,
+                },
+                "dropRightWhile.js": {
+                  "offset": "506729",
+                  "size": 173,
+                },
+                "dropWhile.js": {
+                  "offset": "506902",
+                  "size": 163,
+                },
+                "each.js": {
+                  "offset": "507065",
+                  "size": 39,
+                },
+                "eachRight.js": {
+                  "offset": "507104",
+                  "size": 44,
+                },
+                "endsWith.js": {
+                  "offset": "507148",
+                  "size": 161,
+                },
+                "entries.js": {
+                  "offset": "507309",
+                  "size": 39,
+                },
+                "entriesIn.js": {
+                  "offset": "507348",
+                  "size": 41,
+                },
+                "eq.js": {
+                  "offset": "507389",
+                  "size": 149,
+                },
+                "equals.js": {
+                  "offset": "507538",
+                  "size": 39,
+                },
+                "escape.js": {
+                  "offset": "507577",
+                  "size": 185,
+                },
+                "escapeRegExp.js": {
+                  "offset": "507762",
+                  "size": 197,
+                },
+                "every.js": {
+                  "offset": "507959",
+                  "size": 155,
+                },
+                "extend.js": {
+                  "offset": "508114",
+                  "size": 40,
+                },
+                "extendAll.js": {
+                  "offset": "508154",
+                  "size": 43,
+                },
+                "extendAllWith.js": {
+                  "offset": "508197",
+                  "size": 47,
+                },
+                "extendWith.js": {
+                  "offset": "508244",
+                  "size": 44,
+                },
+                "fill.js": {
+                  "offset": "508288",
+                  "size": 153,
+                },
+                "filter.js": {
+                  "offset": "508441",
+                  "size": 157,
+                },
+                "find.js": {
+                  "offset": "508598",
+                  "size": 153,
+                },
+                "findFrom.js": {
+                  "offset": "508751",
+                  "size": 157,
+                },
+                "findIndex.js": {
+                  "offset": "508908",
+                  "size": 163,
+                },
+                "findIndexFrom.js": {
+                  "offset": "509071",
+                  "size": 167,
+                },
+                "findKey.js": {
+                  "offset": "509238",
+                  "size": 159,
+                },
+                "findLast.js": {
+                  "offset": "509397",
+                  "size": 161,
+                },
+                "findLastFrom.js": {
+                  "offset": "509558",
+                  "size": 165,
+                },
+                "findLastIndex.js": {
+                  "offset": "509723",
+                  "size": 171,
+                },
+                "findLastIndexFrom.js": {
+                  "offset": "509894",
+                  "size": 175,
+                },
+                "findLastKey.js": {
+                  "offset": "510069",
+                  "size": 167,
+                },
+                "first.js": {
+                  "offset": "510236",
+                  "size": 36,
+                },
+                "flatMap.js": {
+                  "offset": "510272",
+                  "size": 159,
+                },
+                "flatMapDeep.js": {
+                  "offset": "510431",
+                  "size": 167,
+                },
+                "flatMapDepth.js": {
+                  "offset": "510598",
+                  "size": 169,
+                },
+                "flatten.js": {
+                  "offset": "510767",
+                  "size": 187,
+                },
+                "flattenDeep.js": {
+                  "offset": "510954",
+                  "size": 195,
+                },
+                "flattenDepth.js": {
+                  "offset": "511149",
+                  "size": 169,
+                },
+                "flip.js": {
+                  "offset": "511318",
+                  "size": 181,
+                },
+                "floor.js": {
+                  "offset": "511499",
+                  "size": 155,
+                },
+                "flow.js": {
+                  "offset": "511654",
+                  "size": 153,
+                },
+                "flowRight.js": {
+                  "offset": "511807",
+                  "size": 163,
+                },
+                "forEach.js": {
+                  "offset": "511970",
+                  "size": 159,
+                },
+                "forEachRight.js": {
+                  "offset": "512129",
+                  "size": 169,
+                },
+                "forIn.js": {
+                  "offset": "512298",
+                  "size": 155,
+                },
+                "forInRight.js": {
+                  "offset": "512453",
+                  "size": 165,
+                },
+                "forOwn.js": {
+                  "offset": "512618",
+                  "size": 157,
+                },
+                "forOwnRight.js": {
+                  "offset": "512775",
+                  "size": 167,
+                },
+                "fromPairs.js": {
+                  "offset": "512942",
+                  "size": 163,
+                },
+                "function.js": {
+                  "offset": "513105",
+                  "size": 86,
+                },
+                "functions.js": {
+                  "offset": "513191",
+                  "size": 191,
+                },
+                "functionsIn.js": {
+                  "offset": "513382",
+                  "size": 195,
+                },
+                "get.js": {
+                  "offset": "513577",
+                  "size": 151,
+                },
+                "getOr.js": {
+                  "offset": "513728",
+                  "size": 153,
+                },
+                "groupBy.js": {
+                  "offset": "513881",
+                  "size": 159,
+                },
+                "gt.js": {
+                  "offset": "514040",
+                  "size": 149,
+                },
+                "gte.js": {
+                  "offset": "514189",
+                  "size": 151,
+                },
+                "has.js": {
+                  "offset": "514340",
+                  "size": 151,
+                },
+                "hasIn.js": {
+                  "offset": "514491",
+                  "size": 155,
+                },
+                "head.js": {
+                  "offset": "514646",
+                  "size": 181,
+                },
+                "identical.js": {
+                  "offset": "514827",
+                  "size": 34,
+                },
+                "identity.js": {
+                  "offset": "514861",
+                  "size": 189,
+                },
+                "inRange.js": {
+                  "offset": "515050",
+                  "size": 159,
+                },
+                "includes.js": {
+                  "offset": "515209",
+                  "size": 161,
+                },
+                "includesFrom.js": {
+                  "offset": "515370",
+                  "size": 165,
+                },
+                "indexBy.js": {
+                  "offset": "515535",
+                  "size": 37,
+                },
+                "indexOf.js": {
+                  "offset": "515572",
+                  "size": 159,
+                },
+                "indexOfFrom.js": {
+                  "offset": "515731",
+                  "size": 163,
+                },
+                "init.js": {
+                  "offset": "515894",
+                  "size": 39,
+                },
+                "initial.js": {
+                  "offset": "515933",
+                  "size": 187,
+                },
+                "intersection.js": {
+                  "offset": "516120",
+                  "size": 169,
+                },
+                "intersectionBy.js": {
+                  "offset": "516289",
+                  "size": 173,
+                },
+                "intersectionWith.js": {
+                  "offset": "516462",
+                  "size": 177,
+                },
+                "invert.js": {
+                  "offset": "516639",
+                  "size": 157,
+                },
+                "invertBy.js": {
+                  "offset": "516796",
+                  "size": 161,
+                },
+                "invertObj.js": {
+                  "offset": "516957",
+                  "size": 38,
+                },
+                "invoke.js": {
+                  "offset": "516995",
+                  "size": 157,
+                },
+                "invokeArgs.js": {
+                  "offset": "517152",
+                  "size": 161,
+                },
+                "invokeArgsMap.js": {
+                  "offset": "517313",
+                  "size": 167,
+                },
+                "invokeMap.js": {
+                  "offset": "517480",
+                  "size": 163,
+                },
+                "isArguments.js": {
+                  "offset": "517643",
+                  "size": 195,
+                },
+                "isArray.js": {
+                  "offset": "517838",
+                  "size": 187,
+                },
+                "isArrayBuffer.js": {
+                  "offset": "518025",
+                  "size": 199,
+                },
+                "isArrayLike.js": {
+                  "offset": "518224",
+                  "size": 195,
+                },
+                "isArrayLikeObject.js": {
+                  "offset": "518419",
+                  "size": 207,
+                },
+                "isBoolean.js": {
+                  "offset": "518626",
+                  "size": 191,
+                },
+                "isBuffer.js": {
+                  "offset": "518817",
+                  "size": 189,
+                },
+                "isDate.js": {
+                  "offset": "519006",
+                  "size": 185,
+                },
+                "isElement.js": {
+                  "offset": "519191",
+                  "size": 191,
+                },
+                "isEmpty.js": {
+                  "offset": "519382",
+                  "size": 187,
+                },
+                "isEqual.js": {
+                  "offset": "519569",
+                  "size": 159,
+                },
+                "isEqualWith.js": {
+                  "offset": "519728",
+                  "size": 167,
+                },
+                "isError.js": {
+                  "offset": "519895",
+                  "size": 187,
+                },
+                "isFinite.js": {
+                  "offset": "520082",
+                  "size": 189,
+                },
+                "isFunction.js": {
+                  "offset": "520271",
+                  "size": 193,
+                },
+                "isInteger.js": {
+                  "offset": "520464",
+                  "size": 191,
+                },
+                "isLength.js": {
+                  "offset": "520655",
+                  "size": 189,
+                },
+                "isMap.js": {
+                  "offset": "520844",
+                  "size": 183,
+                },
+                "isMatch.js": {
+                  "offset": "521027",
+                  "size": 159,
+                },
+                "isMatchWith.js": {
+                  "offset": "521186",
+                  "size": 167,
+                },
+                "isNaN.js": {
+                  "offset": "521353",
+                  "size": 183,
+                },
+                "isNative.js": {
+                  "offset": "521536",
+                  "size": 189,
+                },
+                "isNil.js": {
+                  "offset": "521725",
+                  "size": 183,
+                },
+                "isNull.js": {
+                  "offset": "521908",
+                  "size": 185,
+                },
+                "isNumber.js": {
+                  "offset": "522093",
+                  "size": 189,
+                },
+                "isObject.js": {
+                  "offset": "522282",
+                  "size": 189,
+                },
+                "isObjectLike.js": {
+                  "offset": "522471",
+                  "size": 197,
+                },
+                "isPlainObject.js": {
+                  "offset": "522668",
+                  "size": 199,
+                },
+                "isRegExp.js": {
+                  "offset": "522867",
+                  "size": 189,
+                },
+                "isSafeInteger.js": {
+                  "offset": "523056",
+                  "size": 199,
+                },
+                "isSet.js": {
+                  "offset": "523255",
+                  "size": 183,
+                },
+                "isString.js": {
+                  "offset": "523438",
+                  "size": 189,
+                },
+                "isSymbol.js": {
+                  "offset": "523627",
+                  "size": 189,
+                },
+                "isTypedArray.js": {
+                  "offset": "523816",
+                  "size": 197,
+                },
+                "isUndefined.js": {
+                  "offset": "524013",
+                  "size": 195,
+                },
+                "isWeakMap.js": {
+                  "offset": "524208",
+                  "size": 191,
+                },
+                "isWeakSet.js": {
+                  "offset": "524399",
+                  "size": 191,
+                },
+                "iteratee.js": {
+                  "offset": "524590",
+                  "size": 161,
+                },
+                "join.js": {
+                  "offset": "524751",
+                  "size": 153,
+                },
+                "juxt.js": {
+                  "offset": "524904",
+                  "size": 36,
+                },
+                "kebabCase.js": {
+                  "offset": "524940",
+                  "size": 191,
+                },
+                "keyBy.js": {
+                  "offset": "525131",
+                  "size": 155,
+                },
+                "keys.js": {
+                  "offset": "525286",
+                  "size": 181,
+                },
+                "keysIn.js": {
+                  "offset": "525467",
+                  "size": 185,
+                },
+                "lang.js": {
+                  "offset": "525652",
+                  "size": 82,
+                },
+                "last.js": {
+                  "offset": "525734",
+                  "size": 181,
+                },
+                "lastIndexOf.js": {
+                  "offset": "525915",
+                  "size": 167,
+                },
+                "lastIndexOfFrom.js": {
+                  "offset": "526082",
+                  "size": 171,
+                },
+                "lowerCase.js": {
+                  "offset": "526253",
+                  "size": 191,
+                },
+                "lowerFirst.js": {
+                  "offset": "526444",
+                  "size": 193,
+                },
+                "lt.js": {
+                  "offset": "526637",
+                  "size": 149,
+                },
+                "lte.js": {
+                  "offset": "526786",
+                  "size": 151,
+                },
+                "map.js": {
+                  "offset": "526937",
+                  "size": 151,
+                },
+                "mapKeys.js": {
+                  "offset": "527088",
+                  "size": 159,
+                },
+                "mapValues.js": {
+                  "offset": "527247",
+                  "size": 163,
+                },
+                "matches.js": {
+                  "offset": "527410",
+                  "size": 39,
+                },
+                "matchesProperty.js": {
+                  "offset": "527449",
+                  "size": 175,
+                },
+                "math.js": {
+                  "offset": "527624",
+                  "size": 82,
+                },
+                "max.js": {
+                  "offset": "527706",
+                  "size": 179,
+                },
+                "maxBy.js": {
+                  "offset": "527885",
+                  "size": 155,
+                },
+                "mean.js": {
+                  "offset": "528040",
+                  "size": 181,
+                },
+                "meanBy.js": {
+                  "offset": "528221",
+                  "size": 157,
+                },
+                "memoize.js": {
+                  "offset": "528378",
+                  "size": 159,
+                },
+                "merge.js": {
+                  "offset": "528537",
+                  "size": 155,
+                },
+                "mergeAll.js": {
+                  "offset": "528692",
+                  "size": 158,
+                },
+                "mergeAllWith.js": {
+                  "offset": "528850",
+                  "size": 166,
+                },
+                "mergeWith.js": {
+                  "offset": "529016",
+                  "size": 163,
+                },
+                "method.js": {
+                  "offset": "529179",
+                  "size": 157,
+                },
+                "methodOf.js": {
+                  "offset": "529336",
+                  "size": 161,
+                },
+                "min.js": {
+                  "offset": "529497",
+                  "size": 179,
+                },
+                "minBy.js": {
+                  "offset": "529676",
+                  "size": 155,
+                },
+                "mixin.js": {
+                  "offset": "529831",
+                  "size": 155,
+                },
+                "multiply.js": {
+                  "offset": "529986",
+                  "size": 161,
+                },
+                "nAry.js": {
+                  "offset": "530147",
+                  "size": 35,
+                },
+                "negate.js": {
+                  "offset": "530182",
+                  "size": 185,
+                },
+                "next.js": {
+                  "offset": "530367",
+                  "size": 181,
+                },
+                "noop.js": {
+                  "offset": "530548",
+                  "size": 181,
+                },
+                "now.js": {
+                  "offset": "530729",
+                  "size": 179,
+                },
+                "nth.js": {
+                  "offset": "530908",
+                  "size": 151,
+                },
+                "nthArg.js": {
+                  "offset": "531059",
+                  "size": 157,
+                },
+                "number.js": {
+                  "offset": "531216",
+                  "size": 84,
+                },
+                "object.js": {
+                  "offset": "531300",
+                  "size": 84,
+                },
+                "omit.js": {
+                  "offset": "531384",
+                  "size": 153,
+                },
+                "omitAll.js": {
+                  "offset": "531537",
+                  "size": 36,
+                },
+                "omitBy.js": {
+                  "offset": "531573",
+                  "size": 157,
+                },
+                "once.js": {
+                  "offset": "531730",
+                  "size": 181,
+                },
+                "orderBy.js": {
+                  "offset": "531911",
+                  "size": 159,
+                },
+                "over.js": {
+                  "offset": "532070",
+                  "size": 153,
+                },
+                "overArgs.js": {
+                  "offset": "532223",
+                  "size": 161,
+                },
+                "overEvery.js": {
+                  "offset": "532384",
+                  "size": 163,
+                },
+                "overSome.js": {
+                  "offset": "532547",
+                  "size": 161,
+                },
+                "pad.js": {
+                  "offset": "532708",
+                  "size": 151,
+                },
+                "padChars.js": {
+                  "offset": "532859",
+                  "size": 156,
+                },
+                "padCharsEnd.js": {
+                  "offset": "533015",
+                  "size": 162,
+                },
+                "padCharsStart.js": {
+                  "offset": "533177",
+                  "size": 166,
+                },
+                "padEnd.js": {
+                  "offset": "533343",
+                  "size": 157,
+                },
+                "padStart.js": {
+                  "offset": "533500",
+                  "size": 161,
+                },
+                "parseInt.js": {
+                  "offset": "533661",
+                  "size": 161,
+                },
+                "partial.js": {
+                  "offset": "533822",
+                  "size": 159,
+                },
+                "partialRight.js": {
+                  "offset": "533981",
+                  "size": 169,
+                },
+                "partition.js": {
+                  "offset": "534150",
+                  "size": 163,
+                },
+                "path.js": {
+                  "offset": "534313",
+                  "size": 35,
+                },
+                "pathEq.js": {
+                  "offset": "534348",
+                  "size": 47,
+                },
+                "pathOr.js": {
+                  "offset": "534395",
+                  "size": 37,
+                },
+                "paths.js": {
+                  "offset": "534432",
+                  "size": 34,
+                },
+                "pick.js": {
+                  "offset": "534466",
+                  "size": 153,
+                },
+                "pickAll.js": {
+                  "offset": "534619",
+                  "size": 36,
+                },
+                "pickBy.js": {
+                  "offset": "534655",
+                  "size": 157,
+                },
+                "pipe.js": {
+                  "offset": "534812",
+                  "size": 36,
+                },
+                "placeholder.js": {
+                  "offset": "534848",
+                  "size": 105,
+                },
+                "plant.js": {
+                  "offset": "534953",
+                  "size": 183,
+                },
+                "pluck.js": {
+                  "offset": "535136",
+                  "size": 35,
+                },
+                "prop.js": {
+                  "offset": "535171",
+                  "size": 35,
+                },
+                "propEq.js": {
+                  "offset": "535206",
+                  "size": 47,
+                },
+                "propOr.js": {
+                  "offset": "535253",
+                  "size": 37,
+                },
+                "property.js": {
+                  "offset": "535290",
+                  "size": 35,
+                },
+                "propertyOf.js": {
+                  "offset": "535325",
+                  "size": 158,
+                },
+                "props.js": {
+                  "offset": "535483",
+                  "size": 34,
+                },
+                "pull.js": {
+                  "offset": "535517",
+                  "size": 153,
+                },
+                "pullAll.js": {
+                  "offset": "535670",
+                  "size": 159,
+                },
+                "pullAllBy.js": {
+                  "offset": "535829",
+                  "size": 163,
+                },
+                "pullAllWith.js": {
+                  "offset": "535992",
+                  "size": 167,
+                },
+                "pullAt.js": {
+                  "offset": "536159",
+                  "size": 157,
+                },
+                "random.js": {
+                  "offset": "536316",
+                  "size": 157,
+                },
+                "range.js": {
+                  "offset": "536473",
+                  "size": 155,
+                },
+                "rangeRight.js": {
+                  "offset": "536628",
+                  "size": 165,
+                },
+                "rangeStep.js": {
+                  "offset": "536793",
+                  "size": 159,
+                },
+                "rangeStepRight.js": {
+                  "offset": "536952",
+                  "size": 169,
+                },
+                "rearg.js": {
+                  "offset": "537121",
+                  "size": 155,
+                },
+                "reduce.js": {
+                  "offset": "537276",
+                  "size": 157,
+                },
+                "reduceRight.js": {
+                  "offset": "537433",
+                  "size": 167,
+                },
+                "reject.js": {
+                  "offset": "537600",
+                  "size": 157,
+                },
+                "remove.js": {
+                  "offset": "537757",
+                  "size": 157,
+                },
+                "repeat.js": {
+                  "offset": "537914",
+                  "size": 157,
+                },
+                "replace.js": {
+                  "offset": "538071",
+                  "size": 159,
+                },
+                "rest.js": {
+                  "offset": "538230",
+                  "size": 153,
+                },
+                "restFrom.js": {
+                  "offset": "538383",
+                  "size": 157,
+                },
+                "result.js": {
+                  "offset": "538540",
+                  "size": 157,
+                },
+                "reverse.js": {
+                  "offset": "538697",
+                  "size": 159,
+                },
+                "round.js": {
+                  "offset": "538856",
+                  "size": 155,
+                },
+                "sample.js": {
+                  "offset": "539011",
+                  "size": 185,
+                },
+                "sampleSize.js": {
+                  "offset": "539196",
+                  "size": 165,
+                },
+                "seq.js": {
+                  "offset": "539361",
+                  "size": 81,
+                },
+                "set.js": {
+                  "offset": "539442",
+                  "size": 151,
+                },
+                "setWith.js": {
+                  "offset": "539593",
+                  "size": 159,
+                },
+                "shuffle.js": {
+                  "offset": "539752",
+                  "size": 187,
+                },
+                "size.js": {
+                  "offset": "539939",
+                  "size": 181,
+                },
+                "slice.js": {
+                  "offset": "540120",
+                  "size": 155,
+                },
+                "snakeCase.js": {
+                  "offset": "540275",
+                  "size": 191,
+                },
+                "some.js": {
+                  "offset": "540466",
+                  "size": 153,
+                },
+                "sortBy.js": {
+                  "offset": "540619",
+                  "size": 157,
+                },
+                "sortedIndex.js": {
+                  "offset": "540776",
+                  "size": 167,
+                },
+                "sortedIndexBy.js": {
+                  "offset": "540943",
+                  "size": 171,
+                },
+                "sortedIndexOf.js": {
+                  "offset": "541114",
+                  "size": 171,
+                },
+                "sortedLastIndex.js": {
+                  "offset": "541285",
+                  "size": 175,
+                },
+                "sortedLastIndexBy.js": {
+                  "offset": "541460",
+                  "size": 179,
+                },
+                "sortedLastIndexOf.js": {
+                  "offset": "541639",
+                  "size": 179,
+                },
+                "sortedUniq.js": {
+                  "offset": "541818",
+                  "size": 193,
+                },
+                "sortedUniqBy.js": {
+                  "offset": "542011",
+                  "size": 169,
+                },
+                "split.js": {
+                  "offset": "542180",
+                  "size": 155,
+                },
+                "spread.js": {
+                  "offset": "542335",
+                  "size": 157,
+                },
+                "spreadFrom.js": {
+                  "offset": "542492",
+                  "size": 161,
+                },
+                "startCase.js": {
+                  "offset": "542653",
+                  "size": 191,
+                },
+                "startsWith.js": {
+                  "offset": "542844",
+                  "size": 165,
+                },
+                "string.js": {
+                  "offset": "543009",
+                  "size": 84,
+                },
+                "stubArray.js": {
+                  "offset": "543093",
+                  "size": 191,
+                },
+                "stubFalse.js": {
+                  "offset": "543284",
+                  "size": 191,
+                },
+                "stubObject.js": {
+                  "offset": "543475",
+                  "size": 193,
+                },
+                "stubString.js": {
+                  "offset": "543668",
+                  "size": 193,
+                },
+                "stubTrue.js": {
+                  "offset": "543861",
+                  "size": 189,
+                },
+                "subtract.js": {
+                  "offset": "544050",
+                  "size": 161,
+                },
+                "sum.js": {
+                  "offset": "544211",
+                  "size": 179,
+                },
+                "sumBy.js": {
+                  "offset": "544390",
+                  "size": 155,
+                },
+                "symmetricDifference.js": {
+                  "offset": "544545",
+                  "size": 35,
+                },
+                "symmetricDifferenceBy.js": {
+                  "offset": "544580",
+                  "size": 37,
+                },
+                "symmetricDifferenceWith.js": {
+                  "offset": "544617",
+                  "size": 39,
+                },
+                "tail.js": {
+                  "offset": "544656",
+                  "size": 181,
+                },
+                "take.js": {
+                  "offset": "544837",
+                  "size": 153,
+                },
+                "takeLast.js": {
+                  "offset": "544990",
+                  "size": 41,
+                },
+                "takeLastWhile.js": {
+                  "offset": "545031",
+                  "size": 46,
+                },
+                "takeRight.js": {
+                  "offset": "545077",
+                  "size": 163,
+                },
+                "takeRightWhile.js": {
+                  "offset": "545240",
+                  "size": 173,
+                },
+                "takeWhile.js": {
+                  "offset": "545413",
+                  "size": 163,
+                },
+                "tap.js": {
+                  "offset": "545576",
+                  "size": 151,
+                },
+                "template.js": {
+                  "offset": "545727",
+                  "size": 161,
+                },
+                "templateSettings.js": {
+                  "offset": "545888",
+                  "size": 205,
+                },
+                "throttle.js": {
+                  "offset": "546093",
+                  "size": 161,
+                },
+                "thru.js": {
+                  "offset": "546254",
+                  "size": 153,
+                },
+                "times.js": {
+                  "offset": "546407",
+                  "size": 155,
+                },
+                "toArray.js": {
+                  "offset": "546562",
+                  "size": 187,
+                },
+                "toFinite.js": {
+                  "offset": "546749",
+                  "size": 189,
+                },
+                "toInteger.js": {
+                  "offset": "546938",
+                  "size": 191,
+                },
+                "toIterator.js": {
+                  "offset": "547129",
+                  "size": 193,
+                },
+                "toJSON.js": {
+                  "offset": "547322",
+                  "size": 185,
+                },
+                "toLength.js": {
+                  "offset": "547507",
+                  "size": 189,
+                },
+                "toLower.js": {
+                  "offset": "547696",
+                  "size": 187,
+                },
+                "toNumber.js": {
+                  "offset": "547883",
+                  "size": 189,
+                },
+                "toPairs.js": {
+                  "offset": "548072",
+                  "size": 187,
+                },
+                "toPairsIn.js": {
+                  "offset": "548259",
+                  "size": 191,
+                },
+                "toPath.js": {
+                  "offset": "548450",
+                  "size": 185,
+                },
+                "toPlainObject.js": {
+                  "offset": "548635",
+                  "size": 199,
+                },
+                "toSafeInteger.js": {
+                  "offset": "548834",
+                  "size": 199,
+                },
+                "toString.js": {
+                  "offset": "549033",
+                  "size": 189,
+                },
+                "toUpper.js": {
+                  "offset": "549222",
+                  "size": 187,
+                },
+                "transform.js": {
+                  "offset": "549409",
+                  "size": 163,
+                },
+                "trim.js": {
+                  "offset": "549572",
+                  "size": 153,
+                },
+                "trimChars.js": {
+                  "offset": "549725",
+                  "size": 158,
+                },
+                "trimCharsEnd.js": {
+                  "offset": "549883",
+                  "size": 164,
+                },
+                "trimCharsStart.js": {
+                  "offset": "550047",
+                  "size": 168,
+                },
+                "trimEnd.js": {
+                  "offset": "550215",
+                  "size": 159,
+                },
+                "trimStart.js": {
+                  "offset": "550374",
+                  "size": 163,
+                },
+                "truncate.js": {
+                  "offset": "550537",
+                  "size": 161,
+                },
+                "unapply.js": {
+                  "offset": "550698",
+                  "size": 36,
+                },
+                "unary.js": {
+                  "offset": "550734",
+                  "size": 183,
+                },
+                "unescape.js": {
+                  "offset": "550917",
+                  "size": 189,
+                },
+                "union.js": {
+                  "offset": "551106",
+                  "size": 155,
+                },
+                "unionBy.js": {
+                  "offset": "551261",
+                  "size": 159,
+                },
+                "unionWith.js": {
+                  "offset": "551420",
+                  "size": 163,
+                },
+                "uniq.js": {
+                  "offset": "551583",
+                  "size": 181,
+                },
+                "uniqBy.js": {
+                  "offset": "551764",
+                  "size": 157,
+                },
+                "uniqWith.js": {
+                  "offset": "551921",
+                  "size": 161,
+                },
+                "uniqueId.js": {
+                  "offset": "552082",
+                  "size": 161,
+                },
+                "unnest.js": {
+                  "offset": "552243",
+                  "size": 39,
+                },
+                "unset.js": {
+                  "offset": "552282",
+                  "size": 155,
+                },
+                "unzip.js": {
+                  "offset": "552437",
+                  "size": 183,
+                },
+                "unzipWith.js": {
+                  "offset": "552620",
+                  "size": 163,
+                },
+                "update.js": {
+                  "offset": "552783",
+                  "size": 157,
+                },
+                "updateWith.js": {
+                  "offset": "552940",
+                  "size": 165,
+                },
+                "upperCase.js": {
+                  "offset": "553105",
+                  "size": 191,
+                },
+                "upperFirst.js": {
+                  "offset": "553296",
+                  "size": 193,
+                },
+                "useWith.js": {
+                  "offset": "553489",
+                  "size": 40,
+                },
+                "util.js": {
+                  "offset": "553529",
+                  "size": 82,
+                },
+                "value.js": {
+                  "offset": "553611",
+                  "size": 183,
+                },
+                "valueOf.js": {
+                  "offset": "553794",
+                  "size": 187,
+                },
+                "values.js": {
+                  "offset": "553981",
+                  "size": 185,
+                },
+                "valuesIn.js": {
+                  "offset": "554166",
+                  "size": 189,
+                },
+                "where.js": {
+                  "offset": "554355",
+                  "size": 42,
+                },
+                "whereEq.js": {
+                  "offset": "554397",
+                  "size": 39,
+                },
+                "without.js": {
+                  "offset": "554436",
+                  "size": 159,
+                },
+                "words.js": {
+                  "offset": "554595",
+                  "size": 155,
+                },
+                "wrap.js": {
+                  "offset": "554750",
+                  "size": 153,
+                },
+                "wrapperAt.js": {
+                  "offset": "554903",
+                  "size": 191,
+                },
+                "wrapperChain.js": {
+                  "offset": "555094",
+                  "size": 197,
+                },
+                "wrapperLodash.js": {
+                  "offset": "555291",
+                  "size": 199,
+                },
+                "wrapperReverse.js": {
+                  "offset": "555490",
+                  "size": 201,
+                },
+                "wrapperValue.js": {
+                  "offset": "555691",
+                  "size": 197,
+                },
+                "xor.js": {
+                  "offset": "555888",
+                  "size": 151,
+                },
+                "xorBy.js": {
+                  "offset": "556039",
+                  "size": 155,
+                },
+                "xorWith.js": {
+                  "offset": "556194",
+                  "size": 159,
+                },
+                "zip.js": {
+                  "offset": "556353",
+                  "size": 151,
+                },
+                "zipAll.js": {
+                  "offset": "556504",
+                  "size": 154,
+                },
+                "zipObj.js": {
+                  "offset": "556658",
+                  "size": 41,
+                },
+                "zipObject.js": {
+                  "offset": "556699",
+                  "size": 163,
+                },
+                "zipObjectDeep.js": {
+                  "offset": "556862",
+                  "size": 171,
+                },
+                "zipWith.js": {
+                  "offset": "557033",
+                  "size": 159,
+                },
+              },
+            },
+            "fp.js": {
+              "offset": "468224",
+              "size": 101,
+            },
+            "fromPairs.js": {
+              "offset": "557192",
+              "size": 596,
+            },
+            "function.js": {
+              "offset": "557788",
+              "size": 780,
+            },
+            "functions.js": {
+              "offset": "558568",
+              "size": 685,
+            },
+            "functionsIn.js": {
+              "offset": "559253",
+              "size": 714,
+            },
+            "get.js": {
+              "offset": "559967",
+              "size": 884,
+            },
+            "groupBy.js": {
+              "offset": "560851",
+              "size": 1399,
+            },
+            "gt.js": {
+              "offset": "562250",
+              "size": 596,
+            },
+            "gte.js": {
+              "offset": "562846",
+              "size": 635,
+            },
+            "has.js": {
+              "offset": "563481",
+              "size": 757,
+            },
+            "hasIn.js": {
+              "offset": "564238",
+              "size": 753,
+            },
+            "head.js": {
+              "offset": "564991",
+              "size": 415,
+            },
+            "identity.js": {
+              "offset": "565406",
+              "size": 370,
+            },
+            "inRange.js": {
+              "offset": "565776",
+              "size": 1245,
+            },
+            "includes.js": {
+              "offset": "567021",
+              "size": 1772,
+            },
+            "index.js": {
+              "offset": "568793",
+              "size": 37,
+            },
+            "indexOf.js": {
+              "offset": "568830",
+              "size": 1240,
+            },
+            "initial.js": {
+              "offset": "570070",
+              "size": 461,
+            },
+            "intersection.js": {
+              "offset": "570531",
+              "size": 953,
+            },
+            "intersectionBy.js": {
+              "offset": "571484",
+              "size": 1467,
+            },
+            "intersectionWith.js": {
+              "offset": "572951",
+              "size": 1388,
+            },
+            "invert.js": {
+              "offset": "574339",
+              "size": 1128,
+            },
+            "invertBy.js": {
+              "offset": "575467",
+              "size": 1651,
+            },
+            "invoke.js": {
+              "offset": "577118",
+              "size": 634,
+            },
+            "invokeMap.js": {
+              "offset": "577752",
+              "size": 1440,
+            },
+            "isArguments.js": {
+              "offset": "579192",
+              "size": 1026,
+            },
+            "isArray.js": {
+              "offset": "580218",
+              "size": 488,
+            },
+            "isArrayBuffer.js": {
+              "offset": "580706",
+              "size": 732,
+            },
+            "isArrayLike.js": {
+              "offset": "581438",
+              "size": 830,
+            },
+            "isArrayLikeObject.js": {
+              "offset": "582268",
+              "size": 742,
+            },
+            "isBoolean.js": {
+              "offset": "583010",
+              "size": 681,
+            },
+            "isBuffer.js": {
+              "offset": "583691",
+              "size": 1114,
+            },
+            "isDate.js": {
+              "offset": "584805",
+              "size": 642,
+            },
+            "isElement.js": {
+              "offset": "585447",
+              "size": 574,
+            },
+            "isEmpty.js": {
+              "offset": "586021",
+              "size": 2000,
+            },
+            "isEqual.js": {
+              "offset": "588021",
+              "size": 986,
+            },
+            "isEqualWith.js": {
+              "offset": "589007",
+              "size": 1352,
+            },
+            "isError.js": {
+              "offset": "590359",
+              "size": 961,
+            },
+            "isFinite.js": {
+              "offset": "591320",
+              "size": 793,
+            },
+            "isFunction.js": {
+              "offset": "592113",
+              "size": 993,
+            },
+            "isInteger.js": {
+              "offset": "593106",
+              "size": 669,
+            },
+            "isLength.js": {
+              "offset": "593775",
+              "size": 802,
+            },
+            "isMap.js": {
+              "offset": "594577",
+              "size": 613,
+            },
+            "isMatch.js": {
+              "offset": "595190",
+              "size": 1078,
+            },
+            "isMatchWith.js": {
+              "offset": "596268",
+              "size": 1329,
+            },
+            "isNaN.js": {
+              "offset": "597597",
+              "size": 911,
+            },
+            "isNative.js": {
+              "offset": "598508",
+              "size": 1221,
+            },
+            "isNil.js": {
+              "offset": "599729",
+              "size": 426,
+            },
+            "isNull.js": {
+              "offset": "600155",
+              "size": 381,
+            },
+            "isNumber.js": {
+              "offset": "600536",
+              "size": 886,
+            },
+            "isObject.js": {
+              "offset": "601422",
+              "size": 733,
+            },
+            "isObjectLike.js": {
+              "offset": "602155",
+              "size": 614,
+            },
+            "isPlainObject.js": {
+              "offset": "602769",
+              "size": 1650,
+            },
+            "isRegExp.js": {
+              "offset": "604419",
+              "size": 646,
+            },
+            "isSafeInteger.js": {
+              "offset": "605065",
+              "size": 949,
+            },
+            "isSet.js": {
+              "offset": "606014",
+              "size": 613,
+            },
+            "isString.js": {
+              "offset": "606627",
+              "size": 723,
+            },
+            "isSymbol.js": {
+              "offset": "607350",
+              "size": 682,
+            },
+            "isTypedArray.js": {
+              "offset": "608032",
+              "size": 695,
+            },
+            "isUndefined.js": {
+              "offset": "608727",
+              "size": 416,
+            },
+            "isWeakMap.js": {
+              "offset": "609143",
+              "size": 631,
+            },
+            "isWeakSet.js": {
+              "offset": "609774",
+              "size": 643,
+            },
+            "iteratee.js": {
+              "offset": "610417",
+              "size": 1700,
+            },
+            "join.js": {
+              "offset": "612117",
+              "size": 693,
+            },
+            "kebabCase.js": {
+              "offset": "612810",
+              "size": 659,
+            },
+            "keyBy.js": {
+              "offset": "613469",
+              "size": 1194,
+            },
+            "keys.js": {
+              "offset": "614663",
+              "size": 884,
+            },
+            "keysIn.js": {
+              "offset": "615547",
+              "size": 778,
+            },
+            "lang.js": {
+              "offset": "616325",
+              "size": 2137,
+            },
+            "last.js": {
+              "offset": "618462",
+              "size": 401,
+            },
+            "lastIndexOf.js": {
+              "offset": "618863",
+              "size": 1358,
+            },
+            "lodash.js": {
+              "offset": "620221",
+              "size": 544098,
+            },
+            "lodash.min.js": {
+              "offset": "1164319",
+              "size": 73015,
+            },
+            "lowerCase.js": {
+              "offset": "1237334",
+              "size": 622,
+            },
+            "lowerFirst.js": {
+              "offset": "1237956",
+              "size": 470,
+            },
+            "lt.js": {
+              "offset": "1238426",
+              "size": 590,
+            },
+            "lte.js": {
+              "offset": "1239016",
+              "size": 629,
+            },
+            "map.js": {
+              "offset": "1239645",
+              "size": 1621,
+            },
+            "mapKeys.js": {
+              "offset": "1241266",
+              "size": 1097,
+            },
+            "mapValues.js": {
+              "offset": "1242363",
+              "size": 1338,
+            },
+            "matches.js": {
+              "offset": "1243701",
+              "size": 1441,
+            },
+            "matchesProperty.js": {
+              "offset": "1245142",
+              "size": 1454,
+            },
+            "math.js": {
+              "offset": "1246596",
+              "size": 482,
+            },
+            "max.js": {
+              "offset": "1247078",
+              "size": 614,
+            },
+            "maxBy.js": {
+              "offset": "1247692",
+              "size": 991,
+            },
+            "mean.js": {
+              "offset": "1248683",
+              "size": 422,
+            },
+            "meanBy.js": {
+              "offset": "1249105",
+              "size": 879,
+            },
+            "memoize.js": {
+              "offset": "1249984",
+              "size": 2224,
+            },
+            "merge.js": {
+              "offset": "1252208",
+              "size": 1220,
+            },
+            "mergeWith.js": {
+              "offset": "1253428",
+              "size": 1247,
+            },
+            "method.js": {
+              "offset": "1254675",
+              "size": 860,
+            },
+            "methodOf.js": {
+              "offset": "1255535",
+              "size": 912,
+            },
+            "min.js": {
+              "offset": "1256447",
+              "size": 614,
+            },
+            "minBy.js": {
+              "offset": "1257061",
+              "size": 991,
+            },
+            "mixin.js": {
+              "offset": "1258052",
+              "size": 2236,
+            },
+            "multiply.js": {
+              "offset": "1260288",
+              "size": 530,
+            },
+            "negate.js": {
+              "offset": "1260818",
+              "size": 1079,
+            },
+            "next.js": {
+              "offset": "1261897",
+              "size": 836,
+            },
+            "noop.js": {
+              "offset": "1262733",
+              "size": 250,
+            },
+            "now.js": {
+              "offset": "1262983",
+              "size": 520,
+            },
+            "nth.js": {
+              "offset": "1263503",
+              "size": 671,
+            },
+            "nthArg.js": {
+              "offset": "1264174",
+              "size": 730,
+            },
+            "number.js": {
+              "offset": "1264904",
+              "size": 120,
+            },
+            "object.js": {
+              "offset": "1265024",
+              "size": 1674,
+            },
+            "omit.js": {
+              "offset": "1266698",
+              "size": 1629,
+            },
+            "omitBy.js": {
+              "offset": "1268327",
+              "size": 854,
+            },
+            "once.js": {
+              "offset": "1269181",
+              "size": 665,
+            },
+            "orderBy.js": {
+              "offset": "1269846",
+              "size": 1620,
+            },
+            "over.js": {
+              "offset": "1271466",
+              "size": 558,
+            },
+            "overArgs.js": {
+              "offset": "1272024",
+              "size": 1620,
+            },
+            "overEvery.js": {
+              "offset": "1273644",
+              "size": 920,
+            },
+            "overSome.js": {
+              "offset": "1274564",
+              "size": 1036,
+            },
+            "package.json": {
+              "offset": "1275600",
+              "size": 309,
+            },
+            "pad.js": {
+              "offset": "1275909",
+              "size": 1289,
+            },
+            "padEnd.js": {
+              "offset": "1277198",
+              "size": 1017,
+            },
+            "padStart.js": {
+              "offset": "1278215",
+              "size": 1026,
+            },
+            "parseInt.js": {
+              "offset": "1279241",
+              "size": 1256,
+            },
+            "partial.js": {
+              "offset": "1280497",
+              "size": 1566,
+            },
+            "partialRight.js": {
+              "offset": "1282063",
+              "size": 1552,
+            },
+            "partition.js": {
+              "offset": "1283615",
+              "size": 1518,
+            },
+            "pick.js": {
+              "offset": "1285133",
+              "size": 629,
+            },
+            "pickBy.js": {
+              "offset": "1285762",
+              "size": 1032,
+            },
+            "plant.js": {
+              "offset": "1286794",
+              "size": 1016,
+            },
+            "property.js": {
+              "offset": "1287810",
+              "size": 793,
+            },
+            "propertyOf.js": {
+              "offset": "1288603",
+              "size": 732,
+            },
+            "pull.js": {
+              "offset": "1289335",
+              "size": 758,
+            },
+            "pullAll.js": {
+              "offset": "1290093",
+              "size": 710,
+            },
+            "pullAllBy.js": {
+              "offset": "1290803",
+              "size": 1071,
+            },
+            "pullAllWith.js": {
+              "offset": "1291874",
+              "size": 1029,
+            },
+            "pullAt.js": {
+              "offset": "1292903",
+              "size": 1182,
+            },
+            "random.js": {
+              "offset": "1294085",
+              "size": 2371,
+            },
+            "range.js": {
+              "offset": "1296456",
+              "size": 1151,
+            },
+            "rangeRight.js": {
+              "offset": "1297607",
+              "size": 862,
+            },
+            "rearg.js": {
+              "offset": "1298469",
+              "size": 1023,
+            },
+            "reduce.js": {
+              "offset": "1299492",
+              "size": 1806,
+            },
+            "reduceRight.js": {
+              "offset": "1301298",
+              "size": 1156,
+            },
+            "reject.js": {
+              "offset": "1302454",
+              "size": 1417,
+            },
+            "release.md": {
+              "offset": "1303871",
+              "size": 2035,
+            },
+            "remove.js": {
+              "offset": "1305906",
+              "size": 1332,
+            },
+            "repeat.js": {
+              "offset": "1307238",
+              "size": 893,
+            },
+            "replace.js": {
+              "offset": "1308131",
+              "size": 754,
+            },
+            "rest.js": {
+              "offset": "1308885",
+              "size": 1182,
+            },
+            "result.js": {
+              "offset": "1310067",
+              "size": 1464,
+            },
+            "reverse.js": {
+              "offset": "1311531",
+              "size": 844,
+            },
+            "round.js": {
+              "offset": "1312375",
+              "size": 501,
+            },
+            "sample.js": {
+              "offset": "1312876",
+              "size": 551,
+            },
+            "sampleSize.js": {
+              "offset": "1313427",
+              "size": 1068,
+            },
+            "seq.js": {
+              "offset": "1314495",
+              "size": 507,
+            },
+            "set.js": {
+              "offset": "1315002",
+              "size": 960,
+            },
+            "setWith.js": {
+              "offset": "1315962",
+              "size": 1055,
+            },
+            "shuffle.js": {
+              "offset": "1317017",
+              "size": 678,
+            },
+            "size.js": {
+              "offset": "1317695",
+              "size": 1137,
+            },
+            "slice.js": {
+              "offset": "1318832",
+              "size": 1032,
+            },
+            "snakeCase.js": {
+              "offset": "1319864",
+              "size": 638,
+            },
+            "some.js": {
+              "offset": "1320502",
+              "size": 1608,
+            },
+            "sortBy.js": {
+              "offset": "1322110",
+              "size": 1668,
+            },
+            "sortedIndex.js": {
+              "offset": "1323778",
+              "size": 626,
+            },
+            "sortedIndexBy.js": {
+              "offset": "1324404",
+              "size": 1060,
+            },
+            "sortedIndexOf.js": {
+              "offset": "1325464",
+              "size": 762,
+            },
+            "sortedLastIndex.js": {
+              "offset": "1326226",
+              "size": 679,
+            },
+            "sortedLastIndexBy.js": {
+              "offset": "1326905",
+              "size": 1086,
+            },
+            "sortedLastIndexOf.js": {
+              "offset": "1327991",
+              "size": 770,
+            },
+            "sortedUniq.js": {
+              "offset": "1328761",
+              "size": 513,
+            },
+            "sortedUniqBy.js": {
+              "offset": "1329274",
+              "size": 698,
+            },
+            "split.js": {
+              "offset": "1329972",
+              "size": 1550,
+            },
+            "spread.js": {
+              "offset": "1331522",
+              "size": 1734,
+            },
+            "startCase.js": {
+              "offset": "1333256",
+              "size": 714,
+            },
+            "startsWith.js": {
+              "offset": "1333970",
+              "size": 1017,
+            },
+            "string.js": {
+              "offset": "1334987",
+              "size": 1168,
+            },
+            "stubArray.js": {
+              "offset": "1336155",
+              "size": 390,
+            },
+            "stubFalse.js": {
+              "offset": "1336545",
+              "size": 280,
+            },
+            "stubObject.js": {
+              "offset": "1336825",
+              "size": 400,
+            },
+            "stubString.js": {
+              "offset": "1337225",
+              "size": 290,
+            },
+            "stubTrue.js": {
+              "offset": "1337515",
+              "size": 272,
+            },
+            "subtract.js": {
+              "offset": "1337787",
+              "size": 511,
+            },
+            "sum.js": {
+              "offset": "1338298",
+              "size": 453,
+            },
+            "sumBy.js": {
+              "offset": "1338751",
+              "size": 908,
+            },
+            "tail.js": {
+              "offset": "1339659",
+              "size": 457,
+            },
+            "take.js": {
+              "offset": "1340116",
+              "size": 851,
+            },
+            "takeRight.js": {
+              "offset": "1340967",
+              "size": 930,
+            },
+            "takeRightWhile.js": {
+              "offset": "1341897",
+              "size": 1376,
+            },
+            "takeWhile.js": {
+              "offset": "1343273",
+              "size": 1335,
+            },
+            "tap.js": {
+              "offset": "1344608",
+              "size": 703,
+            },
+            "template.js": {
+              "offset": "1345311",
+              "size": 10441,
+            },
+            "templateSettings.js": {
+              "offset": "1355752",
+              "size": 1411,
+            },
+            "throttle.js": {
+              "offset": "1357163",
+              "size": 2709,
+            },
+            "thru.js": {
+              "offset": "1359872",
+              "size": 674,
+            },
+            "times.js": {
+              "offset": "1360546",
+              "size": 1367,
+            },
+            "toArray.js": {
+              "offset": "1361913",
+              "size": 1406,
+            },
+            "toFinite.js": {
+              "offset": "1363319",
+              "size": 868,
+            },
+            "toInteger.js": {
+              "offset": "1364187",
+              "size": 760,
+            },
+            "toIterator.js": {
+              "offset": "1364947",
+              "size": 403,
+            },
+            "toJSON.js": {
+              "offset": "1365350",
+              "size": 44,
+            },
+            "toLength.js": {
+              "offset": "1365394",
+              "size": 868,
+            },
+            "toLower.js": {
+              "offset": "1366262",
+              "size": 592,
+            },
+            "toNumber.js": {
+              "offset": "1366854",
+              "size": 1519,
+            },
+            "toPairs.js": {
+              "offset": "1368373",
+              "size": 699,
+            },
+            "toPairsIn.js": {
+              "offset": "1369072",
+              "size": 737,
+            },
+            "toPath.js": {
+              "offset": "1369809",
+              "size": 804,
+            },
+            "toPlainObject.js": {
+              "offset": "1370613",
+              "size": 744,
+            },
+            "toSafeInteger.js": {
+              "offset": "1371357",
+              "size": 836,
+            },
+            "toString.js": {
+              "offset": "1372193",
+              "size": 580,
+            },
+            "toUpper.js": {
+              "offset": "1372773",
+              "size": 592,
+            },
+            "transform.js": {
+              "offset": "1373365",
+              "size": 2280,
+            },
+            "trim.js": {
+              "offset": "1375645",
+              "size": 1381,
+            },
+            "trimEnd.js": {
+              "offset": "1377026",
+              "size": 1216,
+            },
+            "trimStart.js": {
+              "offset": "1378242",
+              "size": 1228,
+            },
+            "truncate.js": {
+              "offset": "1379470",
+              "size": 3357,
+            },
+            "unary.js": {
+              "offset": "1382827",
+              "size": 469,
+            },
+            "unescape.js": {
+              "offset": "1383296",
+              "size": 1056,
+            },
+            "union.js": {
+              "offset": "1384352",
+              "size": 749,
+            },
+            "unionBy.js": {
+              "offset": "1385101",
+              "size": 1320,
+            },
+            "unionWith.js": {
+              "offset": "1386421",
+              "size": 1255,
+            },
+            "uniq.js": {
+              "offset": "1387676",
+              "size": 688,
+            },
+            "uniqBy.js": {
+              "offset": "1388364",
+              "size": 1013,
+            },
+            "uniqWith.js": {
+              "offset": "1389377",
+              "size": 958,
+            },
+            "uniqueId.js": {
+              "offset": "1390335",
+              "size": 562,
+            },
+            "unset.js": {
+              "offset": "1390897",
+              "size": 804,
+            },
+            "unzip.js": {
+              "offset": "1391701",
+              "size": 1282,
+            },
+            "unzipWith.js": {
+              "offset": "1392983",
+              "size": 1049,
+            },
+            "update.js": {
+              "offset": "1394032",
+              "size": 1076,
+            },
+            "updateWith.js": {
+              "offset": "1395108",
+              "size": 1187,
+            },
+            "upperCase.js": {
+              "offset": "1396295",
+              "size": 620,
+            },
+            "upperFirst.js": {
+              "offset": "1396915",
+              "size": 470,
+            },
+            "util.js": {
+              "offset": "1397385",
+              "size": 1177,
+            },
+            "value.js": {
+              "offset": "1398562",
+              "size": 44,
+            },
+            "valueOf.js": {
+              "offset": "1398606",
+              "size": 44,
+            },
+            "values.js": {
+              "offset": "1398650",
+              "size": 733,
+            },
+            "valuesIn.js": {
+              "offset": "1399383",
+              "size": 723,
+            },
+            "without.js": {
+              "offset": "1400106",
+              "size": 858,
+            },
+            "words.js": {
+              "offset": "1400964",
+              "size": 1031,
+            },
+            "wrap.js": {
+              "offset": "1401995",
+              "size": 871,
+            },
+            "wrapperAt.js": {
+              "offset": "1402866",
+              "size": 1341,
+            },
+            "wrapperChain.js": {
+              "offset": "1404207",
+              "size": 706,
+            },
+            "wrapperLodash.js": {
+              "offset": "1404913",
+              "size": 6942,
+            },
+            "wrapperReverse.js": {
+              "offset": "1411855",
+              "size": 1019,
+            },
+            "wrapperValue.js": {
+              "offset": "1412874",
+              "size": 455,
+            },
+            "xor.js": {
+              "offset": "1413329",
+              "size": 811,
+            },
+            "xorBy.js": {
+              "offset": "1414140",
+              "size": 1301,
+            },
+            "xorWith.js": {
+              "offset": "1415441",
+              "size": 1222,
+            },
+            "zip.js": {
+              "offset": "1416663",
+              "size": 609,
+            },
+            "zipObject.js": {
+              "offset": "1417272",
+              "size": 664,
+            },
+            "zipObjectDeep.js": {
+              "offset": "1417936",
+              "size": 643,
+            },
+            "zipWith.js": {
+              "offset": "1418579",
+              "size": 960,
+            },
+          },
+        },
+      },
+    },
+    "package.json": {
+      "offset": "1419571",
+      "size": 298,
+    },
+  },
+}
+`;
+
 exports[`isInstallDepsBefore=true > npm electron-clear-data 1`] = `
 {
   "win": [],
