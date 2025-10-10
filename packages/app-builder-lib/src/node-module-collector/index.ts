@@ -48,6 +48,7 @@ export function detectPackageManager(dirs: string[]): PM {
 
   pm = detectPackageManagerByEnv()
   if (pm) {
+    console.log("RESOLVED BY ENV: ", pm)
     return resolveYarnVersion(pm)
   }
 

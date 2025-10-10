@@ -50,9 +50,9 @@ export function detectPackageManagerByEnv(): PM | null {
   const packageManager = fs.existsSync(packageJsonPath) ? JSON.parse(fs.readFileSync(packageJsonPath, "utf8"))?.packageManager : undefined
 
   const priorityChecklist = [
+    (key: string) => packageManager?.startsWith(`${key}@`),
     (key: string) => process.env.npm_config_user_agent?.includes(key),
     (key: string) => process.env.npm_execpath?.includes(key),
-    (key: string) => packageManager?.startsWith(`${key}@`),
   ]
 
   const pms = Object.values(PM).filter(pm => pm !== PM.YARN_BERRY)
