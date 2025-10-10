@@ -14,6 +14,7 @@ import { AppFileWalker } from "./AppFileWalker"
 import { NodeModuleCopyHelper } from "./NodeModuleCopyHelper"
 import { NodeModuleInfo } from "./packageDependencies"
 import { getNodeModules, detectPackageManager } from "../node-module-collector"
+import { getProjectRootPath } from "../electron/search-module"
 
 const BOWER_COMPONENTS_PATTERN = `${path.sep}bower_components${path.sep}`
 /** @internal */
@@ -176,12 +177,48 @@ function validateFileSet(fileSet: ResolvedFileSet): ResolvedFileSet {
   return fileSet
 }
 
+async function getGitRootDir(baseDir: string): Promise<string | null> {
+  try {
+    const { promisify } = require("util")
+    const { exec } = require("child_process")
+    const execAsync = promisify(exec)
+
+    const { stdout } = await execAsync("git rev-parse --show-toplevel", {
+      cwd: baseDir,
+      timeout: 5000,
+    })
+    return stdout.trim()
+  } catch (error) {
+    // Git not installed, not in a git repo, or other error
+    return null
+  }
+}
+
 /** @internal */
 export async function computeNodeModuleFileSets(platformPackager: PlatformPackager<any>, mainMatcher: FileMatcher): Promise<Array<ResolvedFileSet>> {
   const projectDir = platformPackager.info.projectDir
   const appDir = platformPackager.info.appDir
 
-  const pm = detectPackageManager(appDir === projectDir ? [appDir] : [appDir, projectDir])
+  // Get lockfile root directory (has higher priority)
+  const lockfileRootPath = await getProjectRootPath(appDir)
+
+  // Get git root directory if available
+  const gitRootDir = await getGitRootDir(appDir)
+
+  // Build the list of directories to check for package manager
+  const dirsToCheck = appDir === projectDir ? [appDir] : [appDir, projectDir]
+
+  // Add lockfile root path first (higher priority)
+  if (lockfileRootPath && !dirsToCheck.includes(lockfileRootPath)) {
+    dirsToCheck.push(lockfileRootPath)
+  }
+
+  // Add git root directory second (lower priority)
+  if (gitRootDir && !dirsToCheck.includes(gitRootDir)) {
+    dirsToCheck.push(gitRootDir)
+  }
+
+  const pm = detectPackageManager(dirsToCheck)
 
   let deps = await getNodeModules(pm, appDir, platformPackager.info.tempDirManager)
   if (projectDir !== appDir && deps.length === 0) {
